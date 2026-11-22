@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+# Editors, operating system and local assistant tooling
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.cursor/
+.codex/
+CLAUDE.md
+AGENTS.md
