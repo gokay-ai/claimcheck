@@ -1,0 +1,297 @@
+/* Asking: a hero before the first question, a slim bar after it. */
+
+.ask {
+  display: grid;
+  gap: 1rem;
+  padding-block: clamp(1.75rem, 8vh, 5rem) 0.75rem;
+  transition: padding var(--dur-3) var(--ease-out);
+}
+
+.ask-compact {
+  padding-block: 0;
+}
+
+.ask-top {
+  display: grid;
+  justify-items: center;
+}
+
+.ask-top > .collapse {
+  width: 100%;
+}
+
+.ask-intro {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 0.9rem;
+  padding-bottom: 1.75rem;
+  text-align: center;
+}
+
+/* The hero text has no glass under it, so the backdrop is dimmed behind it. */
+.ask-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(closest-side, var(--vignette) 25%, transparent);
+  pointer-events: none;
+}
+
+.hero-title {
+  font-family: var(--font-read);
+  font-size: clamp(2.1rem, 5.4vw, 3.6rem);
+  font-weight: 560;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  text-shadow: var(--title-glow);
+  animation: rise var(--dur-4) var(--ease-out) backwards;
+}
+
+/* The product in one gesture: a highlighter stroke across the word. */
+.hero-mark {
+  padding: 0 0.14em;
+  margin: 0 -0.06em;
+  border-radius: 0.14em;
+  background: linear-gradient(transparent 14%, var(--highlight) 14% 90%, transparent 90%) no-repeat
+    0 0 / 100% 100%;
+  box-shadow: var(--glow-mark);
+  animation: sweep var(--dur-4) var(--ease-out) 520ms backwards;
+}
+
+.ask-intro .eyebrow {
+  animation: rise var(--dur-4) var(--ease-out) backwards;
+}
+
+.lede {
+  max-width: 38rem;
+  font-size: 1.1rem;
+  color: var(--ink-2);
+  text-wrap: pretty;
+  animation: rise var(--dur-4) var(--ease-out) 90ms backwards;
+}
+
+/* Text that sits straight on the backdrop, with no glass behind it. */
+.ask-intro .eyebrow,
+.lede {
+  text-shadow: var(--text-scrim);
+}
+
+.ask-form {
+  width: 100%;
+  max-width: 46rem;
+  transition: max-width var(--dur-3) var(--ease-out);
+  animation: rise var(--dur-4) var(--ease-out) 160ms backwards;
+}
+
+.ask-compact .ask-form {
+  max-width: 71.25rem;
+}
+
+/* The field is a pane of glass; base.css gives it that material. */
+.ask-field {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.4rem 0.4rem 1.05rem;
+  border-radius: 1.15rem;
+  transition: box-shadow var(--dur-2) ease;
+}
+
+/* Before the first question the field is the one thing to act on, so a ring of
+   light turns slowly around its edge. The ring is a masked layer, which leaves
+   the glass inside it untouched. Afterwards the field is an ordinary pane. */
+.ask-hero .ask-field {
+  position: relative;
+  box-shadow: var(--glass-inset), var(--glow-hero), var(--card-shadow);
+}
+
+.ask-hero .ask-field::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(from var(--spin), var(--neon-ring));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  pointer-events: none;
+  animation: turn-edge 8s linear infinite;
+}
+
+/* The glass edge is a background, so focus is drawn as rings of light. */
+.ask-field:focus-within {
+  box-shadow:
+    var(--glass-inset),
+    0 0 0 1.5px var(--focus),
+    var(--ring),
+    var(--glow-brand),
+    var(--card-shadow);
+}
+
+.ask-field > .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--muted);
+}
+
+.ask-field input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.7rem 0.15rem;
+  border: 0;
+  background: transparent;
+  font-size: 1.1rem;
+  /* The field shows focus on its edge and glow, so the inner outline is dropped. */
+  outline: none;
+}
+
+.ask-field input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.ask-button {
+  min-width: 5.4rem;
+  padding-block: 0.72rem;
+  border-radius: 0.85rem;
+}
+
+.ask-button .icon {
+  transition: transform var(--dur-2) var(--ease-out);
+}
+
+.ask-button:hover:not(:disabled) .icon {
+  transform: translateX(3px);
+}
+
+.spinner {
+  animation: spin 0.8s linear infinite;
+}
+
+/* Examples */
+
+.ask-more {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.examples-toggle {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--surface-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem 0.8rem;
+  color: var(--ink-2);
+  font-size: 0.9rem;
+  font-weight: 550;
+  cursor: pointer;
+  -webkit-backdrop-filter: var(--glass-blur-soft);
+  backdrop-filter: var(--glass-blur-soft);
+  box-shadow: var(--glass-inset);
+  transition:
+    border-color var(--dur-1) ease,
+    box-shadow var(--dur-2) ease;
+}
+
+.examples-toggle:hover {
+  border-color: var(--brand);
+  box-shadow: var(--glass-inset), var(--glow-brand);
+}
+
+.examples-toggle .icon {
+  transition: transform var(--dur-2) var(--ease-out);
+}
+
+.examples-toggle[aria-expanded="true"] .icon {
+  transform: rotate(180deg);
+}
+
+/* The tray that holds the example questions. It folds away inside a clipped
+   region, so it casts no shadow that the clip would cut. */
+.examples-wrap {
+  display: grid;
+  gap: 1.1rem;
+  padding: 1.25rem 1.3rem 1.4rem;
+  box-shadow: var(--glass-inset);
+}
+
+.hint {
+  justify-self: center;
+  max-width: 44rem;
+  color: var(--muted);
+  font-size: 0.93rem;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.ask-compact .hint {
+  justify-self: start;
+  text-align: left;
+}
+
+.examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  gap: 1.25rem 1.1rem;
+}
+
+.example-group {
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
+}
+
+.example-group ul {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.example-group li {
+  animation: rise var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(var(--i) * 45ms + 260ms);
+}
+
+.suggestions {
+  display: grid;
+  gap: 0.45rem;
+  width: min(100%, 34rem);
+}
+
+.suggestions li {
+  animation: rise var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(var(--i) * var(--stagger) + 180ms);
+}
+
+@media (max-width: 560px) {
+  .ask-field {
+    padding-left: 0.85rem;
+  }
+
+  .ask-field > .icon {
+    display: none;
+  }
+
+  .ask-button {
+    min-width: 0;
+    padding-inline: 1rem;
+  }
+
+  .lede {
+    font-size: 1.02rem;
+  }
+
+  .examples-wrap {
+    padding: 1rem 0.9rem 1.1rem;
+  }
+}

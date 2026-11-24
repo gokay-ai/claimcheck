@@ -1,0 +1,315 @@
+/* Element defaults and the pieces every screen shares. */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 3px;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+h2:focus-visible {
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* A heading that receives focus must clear the sticky header. */
+h2[tabindex="-1"] {
+  scroll-margin-top: 5.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Dropped from view on a narrow screen, but still part of the element's name. */
+@media (max-width: 480px) {
+  .narrow-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+.icon {
+  width: 1.1em;
+  height: 1.1em;
+  flex: none;
+  display: inline-block;
+  vertical-align: -0.18em;
+}
+
+/* Cards */
+
+/* A pane of glass: a tint over the blurred backdrop, an edge that catches the
+   light at two corners, a highlight along the top and a sheen that follows the
+   pointer (--mx and --my are set from script). The light theme switches the
+   glass tokens off, and the same rule then draws a plain white card. */
+.card,
+.ask-field {
+  --mx: 22%;
+  --my: 0%;
+  background:
+    radial-gradient(34rem circle at var(--mx) var(--my), var(--glass-sheen), transparent 60%)
+      padding-box,
+    linear-gradient(var(--surface), var(--surface)) padding-box,
+    var(--glass-edge) border-box;
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-inset), var(--card-shadow);
+}
+
+.card {
+  border-radius: var(--radius-l);
+  padding: 1.5rem;
+}
+
+.card h2 {
+  font-size: 1.05rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+/* Buttons */
+
+.primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  background: var(--brand-gradient);
+  color: var(--brand-fill-ink);
+  border: 0;
+  border-radius: var(--radius-m);
+  padding: 0.7rem 1.25rem;
+  font-weight: 650;
+  cursor: pointer;
+  box-shadow: var(--glow-brand);
+  transition:
+    transform var(--dur-1) ease,
+    box-shadow var(--dur-2) ease;
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--brand-gradient-hover);
+  box-shadow: var(--glow-brand), var(--shadow-1);
+}
+
+.primary:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.primary:disabled {
+  background: var(--neutral-fill);
+  color: var(--muted);
+  box-shadow: none;
+  cursor: default;
+}
+
+.ghost-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--surface-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  padding: 0.4rem 0.9rem;
+  font-size: 0.92rem;
+  font-weight: 550;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: var(--glass-inset);
+  transition:
+    border-color var(--dur-1) ease,
+    background-color var(--dur-1) ease,
+    box-shadow var(--dur-2) ease,
+    transform var(--dur-1) ease;
+}
+
+.ghost-button:hover {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+  box-shadow: var(--glass-inset), var(--glow-brand);
+}
+
+.ghost-button:active {
+  transform: scale(0.97);
+}
+
+.link-button {
+  background: none;
+  border: 0;
+  padding: 0.25rem 0;
+  color: var(--link);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: text-decoration-color var(--dur-1) ease;
+}
+
+.link-button:hover:not(:disabled) {
+  text-decoration-color: var(--link);
+}
+
+.link-button:disabled {
+  color: var(--muted);
+  text-decoration: none;
+  cursor: default;
+}
+
+/* A question offered for picking. The arrow slides in as a cue that it acts. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 0.6rem 0.8rem 0.6rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  -webkit-backdrop-filter: var(--glass-blur-soft);
+  backdrop-filter: var(--glass-blur-soft);
+  box-shadow: var(--glass-inset);
+  transition:
+    border-color var(--dur-1) ease,
+    background-color var(--dur-1) ease,
+    transform var(--dur-2) var(--ease-out),
+    box-shadow var(--dur-2) ease;
+}
+
+.chip .icon {
+  color: var(--brand);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition:
+    opacity var(--dur-2) ease,
+    transform var(--dur-2) var(--ease-out);
+}
+
+.chip:hover:not(:disabled),
+.chip:focus-visible {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-1);
+}
+
+.chip:hover:not(:disabled) .icon,
+.chip:focus-visible .icon {
+  opacity: 1;
+  transform: none;
+}
+
+.chip:active:not(:disabled) {
+  transform: scale(0.985);
+}
+
+.chip:disabled {
+  color: var(--muted);
+  cursor: default;
+}
+
+/* Small labels above a group. */
+.eyebrow {
+  font-size: 0.76rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+}
+
+/* A region that opens and closes by animating its own height. */
+.collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows var(--dur-3) var(--ease-out),
+    opacity var(--dur-2) ease;
+}
+
+.collapse[data-open="true"] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.collapse > div {
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Closed content must leave the tab order once the closing animation is done. */
+.collapse-hides > div {
+  visibility: hidden;
+  transition: visibility 0s linear var(--dur-3);
+}
+
+.collapse-hides[data-open="true"] > div {
+  visibility: visible;
+  transition-delay: 0s;
+}

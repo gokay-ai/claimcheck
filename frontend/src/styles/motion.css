@@ -1,0 +1,154 @@
+/* Keyframes, and the rule that turns motion off for people who ask for that. */
+
+/* Something arriving. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* The panel changing to another claim. */
+@keyframes swap {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+/* A highlighter stroke, left to right. */
+@keyframes sweep {
+  from {
+    background-size: 0% 100%;
+  }
+}
+
+/* A label or icon appearing with a small overshoot. */
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+/* A choice being recorded. */
+@keyframes stamp {
+  from {
+    transform: scale(1.1);
+  }
+}
+
+/* A stroke drawing itself; needs pathLength="1" and stroke-dasharray: 1. */
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes turn-edge {
+  to {
+    --spin: 360deg;
+  }
+}
+
+@keyframes halo {
+  to {
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--ok-fill) 55%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 7px transparent;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.85);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 120% 0;
+  }
+  to {
+    background-position: -120% 0;
+  }
+}
+
+@keyframes tap {
+  0%,
+  60%,
+  100% {
+    transform: none;
+  }
+  75% {
+    transform: translate(-3px, -3px) scale(0.92);
+  }
+}
+
+@keyframes drift-a {
+  to {
+    transform: translate(9rem, 5rem) scale(1.15);
+  }
+}
+
+@keyframes drift-b {
+  to {
+    transform: translate(-7rem, 6rem) scale(1.1);
+  }
+}
+
+@keyframes drift-c {
+  to {
+    transform: translate(6rem, -7rem) scale(1.2);
+  }
+}
+
+/* Every animation here is decoration or emphasis. With motion reduced, each
+   state is shown at once in its final form and nothing loops. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}

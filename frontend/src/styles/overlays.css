@@ -1,0 +1,170 @@
+/* Notices (declining, errors) and the readings dialog. */
+
+.notice {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  animation: rise var(--dur-3) var(--ease-out) backwards;
+}
+
+.notice-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.85rem;
+  display: grid;
+  place-items: center;
+  background: var(--brand-soft);
+  color: var(--brand);
+  animation: pop var(--dur-4) var(--ease-spring) 120ms backwards;
+}
+
+.notice-icon .icon {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.notice-error .notice-icon {
+  background: var(--bad-bg);
+  color: var(--bad);
+}
+
+.notice-body {
+  display: grid;
+  gap: 0.7rem;
+  justify-items: start;
+}
+
+.notice-body h2 {
+  font-family: var(--font-read);
+  font-size: 1.45rem;
+  font-weight: 560;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+.notice-body p {
+  max-width: 44rem;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+/* Readings dialog */
+
+.readings {
+  width: min(700px, 100% - 2rem);
+  max-height: min(86vh, 48rem);
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-l);
+  background:
+    linear-gradient(var(--surface-raised), var(--surface-raised)) padding-box,
+    var(--glass-edge) border-box;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  color: var(--ink);
+  box-shadow: var(--glass-inset), var(--shadow-3);
+  opacity: 0;
+  transform: translateY(14px) scale(0.97);
+  transition:
+    opacity var(--dur-2) ease,
+    transform var(--dur-3) var(--ease-out);
+}
+
+.readings[open] {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  opacity: 1;
+  transform: none;
+}
+
+@starting-style {
+  .readings[open] {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+  }
+}
+
+.readings::backdrop {
+  background: rgb(10 13 22 / 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  animation: fade var(--dur-2) ease backwards;
+}
+
+.readings-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.readings-top h2 {
+  font-family: var(--font-read);
+  font-size: 1.45rem;
+  font-weight: 560;
+  letter-spacing: -0.015em;
+}
+
+.readings-body {
+  display: grid;
+  gap: 1.2rem;
+  padding: 1.2rem 1.4rem 1.4rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.readings-body > p {
+  color: var(--muted);
+}
+
+.readings-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem 1.6rem;
+}
+
+.readings-topics h3 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+  font-weight: 650;
+}
+
+.readings-topics h3 span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.readings-topics ul {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.readings-topics a {
+  text-decoration-color: color-mix(in srgb, var(--link) 35%, transparent);
+}
+
+.readings-topics a:hover {
+  text-decoration-color: var(--link);
+}
+
+.readings-topics a .icon,
+.passage figcaption a .icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.25rem;
+  opacity: 0.6;
+}
+
+.readings-licence {
+  font-size: 0.85rem;
+}
