@@ -1,11 +1,12 @@
-import { type CSSProperties, type FormEvent } from "react";
+import { useState, type CSSProperties, type FormEvent } from "react";
 
 import type { Meta } from "../api/types";
-import { ArrowRightIcon, SearchIcon, SpinnerIcon } from "./icons";
+import { ArrowRightIcon, ChevronDownIcon, SearchIcon, SpinnerIcon } from "./icons";
 
 interface Props {
   meta: Meta | null;
   busy: boolean;
+  /** Once a question has been asked, the introduction and examples fold away to keep the answer in view. */
   compact: boolean;
   /** Open the examples even when compact, for when the next step is to pick one. */
   offerExamples: boolean;
@@ -23,12 +24,14 @@ export function AskForm({
   onQuestion,
   onAsk,
 }: Props) {
+  const [expanded, setExpanded] = useState(false);
   const replay = meta?.mode === "replay";
   const examples = meta?.examples ?? [];
   const topics = [...new Set(examples.map((example) => example.topic))];
-  const examplesOpen = true;
+  const examplesOpen = !compact || expanded || offerExamples;
 
   const ask = (text: string) => {
+    setExpanded(false);
     onAsk(text);
   };
 
@@ -105,7 +108,18 @@ export function AskForm({
 
       {examples.length > 0 && (
         <div className="ask-more">
-
+          {compact && !offerExamples && (
+            <button
+              type="button"
+              className="examples-toggle"
+              aria-expanded={expanded}
+              aria-controls="examples"
+              onClick={() => setExpanded((open) => !open)}
+            >
+              Example questions
+              <ChevronDownIcon />
+            </button>
+          )}
           <div
             id="examples"
             className="collapse collapse-hides"
