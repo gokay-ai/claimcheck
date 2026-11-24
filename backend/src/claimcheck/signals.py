@@ -107,8 +107,8 @@ def build_signals(
     )
 
 
-# Candidate ways to turn the raw signals into one 0-to-1 risk score.
-# Mark on token probability, as the highlighting studies did.
+# Candidate ways to turn the raw signals into one 0-to-1 risk score. The pilot
+# evaluation scores each of them; `DEFAULT_SIGNAL` is the one the app uses.
 
 
 def _token_min(signals: ClaimSignals) -> float | None:
@@ -141,7 +141,7 @@ SIGNALS: dict[str, Callable[[ClaimSignals], float | None]] = {
     "combined": _combined,
 }
 
-DEFAULT_SIGNAL = "token_min"
+DEFAULT_SIGNAL = "combined"
 
 
 def scored(signals: ClaimSignals, signal: str = DEFAULT_SIGNAL) -> bool:

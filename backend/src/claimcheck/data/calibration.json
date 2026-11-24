@@ -1,0 +1,105 @@
+{
+  "signal": "combined",
+  "default_threshold": 0.35,
+  "points": [
+    {
+      "threshold": 0.05,
+      "hit_rate": 0.971,
+      "false_alarm_rate": 0.938
+    },
+    {
+      "threshold": 0.1,
+      "hit_rate": 0.971,
+      "false_alarm_rate": 0.907
+    },
+    {
+      "threshold": 0.15,
+      "hit_rate": 0.971,
+      "false_alarm_rate": 0.876
+    },
+    {
+      "threshold": 0.2,
+      "hit_rate": 0.971,
+      "false_alarm_rate": 0.81
+    },
+    {
+      "threshold": 0.25,
+      "hit_rate": 0.971,
+      "false_alarm_rate": 0.717
+    },
+    {
+      "threshold": 0.3,
+      "hit_rate": 0.857,
+      "false_alarm_rate": 0.531
+    },
+    {
+      "threshold": 0.35,
+      "hit_rate": 0.8,
+      "false_alarm_rate": 0.381
+    },
+    {
+      "threshold": 0.4,
+      "hit_rate": 0.571,
+      "false_alarm_rate": 0.239
+    },
+    {
+      "threshold": 0.45,
+      "hit_rate": 0.486,
+      "false_alarm_rate": 0.155
+    },
+    {
+      "threshold": 0.5,
+      "hit_rate": 0.429,
+      "false_alarm_rate": 0.088
+    },
+    {
+      "threshold": 0.55,
+      "hit_rate": 0.314,
+      "false_alarm_rate": 0.044
+    },
+    {
+      "threshold": 0.6,
+      "hit_rate": 0.257,
+      "false_alarm_rate": 0.031
+    },
+    {
+      "threshold": 0.65,
+      "hit_rate": 0.143,
+      "false_alarm_rate": 0.018
+    },
+    {
+      "threshold": 0.7,
+      "hit_rate": 0.143,
+      "false_alarm_rate": 0.004
+    },
+    {
+      "threshold": 0.75,
+      "hit_rate": 0.086,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "hit_rate": 0.086,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.85,
+      "hit_rate": 0.029,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "hit_rate": 0.029,
+      "false_alarm_rate": 0.0
+    },
+    {
+      "threshold": 0.95,
+      "hit_rate": 0.0,
+      "false_alarm_rate": 0.0
+    }
+  ],
+  "claims": 261,
+  "wrong_claims": 35,
+  "auc": 0.764,
+  "basis": "pilot test, answers written with and without the readings"
+}

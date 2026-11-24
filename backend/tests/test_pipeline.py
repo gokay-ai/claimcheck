@@ -44,6 +44,7 @@ async def test_an_answer_is_split_scored_and_tied_to_passages(
     first, second = result.claims
     assert first.signals.disagreement == 0.0
     assert second.signals.disagreement == 0.5
+    assert second.risk > first.risk
     assert result.answer[second.start : second.end] == second.text
 
     shown = {passage.id for passage in result.passages}
