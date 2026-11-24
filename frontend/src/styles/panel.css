@@ -1,0 +1,368 @@
+/* The check panel: why a claim is or is not marked, and the passage to compare. */
+
+.panel {
+  animation: rise var(--dur-3) var(--ease-out) 90ms backwards;
+}
+
+@media (min-width: 940px) {
+  .panel {
+    position: sticky;
+    top: 4.7rem;
+    max-height: calc(100vh - 5.7rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+
+/* Re-keyed per claim, so choosing another claim replays the entrance. */
+.panel-body {
+  display: grid;
+  gap: 1.25rem;
+  animation: swap var(--dur-3) var(--ease-out);
+}
+
+.panel h3 {
+  margin-bottom: 0.55rem;
+  font-size: 0.76rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+}
+
+.panel-claim {
+  padding: 0.8rem 0.95rem;
+  border-left: 4px solid var(--line-strong);
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+  background: var(--surface-3);
+  font-family: var(--font-read);
+  font-size: 1.12rem;
+  line-height: 1.45;
+}
+
+.panel-claim-marked {
+  border-left-color: var(--mark-line);
+  background: var(--mark-bg);
+}
+
+/* Empty state */
+
+.panel-empty {
+  display: grid;
+  gap: 0.5rem;
+  justify-items: start;
+}
+
+.panel-empty p {
+  color: var(--muted);
+}
+
+.empty-art {
+  position: relative;
+  display: grid;
+  gap: 0.45rem;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  padding: 1rem;
+  border-radius: var(--radius-m);
+  background: var(--surface-2);
+  border: 1px dashed var(--line-strong);
+}
+
+.empty-art span {
+  height: 0.7rem;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+}
+
+.empty-art span:nth-child(1) {
+  width: 86%;
+}
+
+.empty-art span:nth-child(2) {
+  width: 68%;
+  background: var(--mark-bg);
+  box-shadow: inset 3px 0 0 var(--mark-line);
+}
+
+.empty-art span:nth-child(3) {
+  width: 78%;
+}
+
+.empty-art .icon {
+  position: absolute;
+  left: 52%;
+  top: 2.15rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--ink);
+  fill: var(--surface-solid);
+  animation: tap 2.6s var(--ease-out) infinite;
+}
+
+/* Score meter */
+
+.meter {
+  margin-bottom: 0.85rem;
+}
+
+.meter-track {
+  position: relative;
+  height: 0.6rem;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+}
+
+.meter-fill {
+  width: calc(var(--score) * 100%);
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--line-strong);
+  animation: grow var(--dur-4) var(--ease-out) 120ms backwards;
+}
+
+.meter-marked .meter-fill {
+  background: var(--mark-line);
+  box-shadow: var(--glow-mark);
+}
+
+.meter-tick {
+  position: absolute;
+  top: -0.3rem;
+  bottom: -0.3rem;
+  left: calc(var(--threshold) * 100%);
+  width: 2px;
+  margin-left: -1px;
+  border-radius: 1px;
+  background: var(--ink);
+  transition: left var(--dur-3) var(--ease-out);
+}
+
+.meter-scale {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  line-height: 1;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.meter-scale .meter-at {
+  position: absolute;
+  left: calc(var(--threshold) * 100%);
+  transform: translateX(-50%);
+  color: var(--ink-2);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: left var(--dur-3) var(--ease-out);
+}
+
+/* Reasons */
+
+.reasons {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.reasons li {
+  display: grid;
+  grid-template-columns: 1.9rem minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: start;
+  font-size: 0.97rem;
+}
+
+.reason-icon {
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 0.55rem;
+  display: grid;
+  place-items: center;
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.reason-icon .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* One tile per re-asked answer. */
+.votes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.vote {
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 0.45rem;
+  display: grid;
+  place-items: center;
+  background: var(--neutral-fill);
+  color: var(--neutral-ink);
+  animation: pop var(--dur-3) var(--ease-spring) backwards;
+  animation-delay: calc(var(--i) * 60ms + 200ms);
+}
+
+.vote .icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  stroke-width: 3;
+}
+
+.vote-supported {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+
+.vote-contradicted {
+  background: var(--bad-bg);
+  color: var(--bad);
+}
+
+.score {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.score strong {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Passage */
+
+.passage blockquote {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: var(--surface-2);
+  font-family: var(--font-read);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Shared words are highlighted one after another, so the eye is led through them. */
+.passage mark {
+  padding: 0 0.12em;
+  border-radius: 3px;
+  color: inherit;
+  background: linear-gradient(var(--highlight), var(--highlight)) no-repeat 0 0 / 100% 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: sweep var(--dur-3) var(--ease-out) backwards;
+  animation-delay: calc(min(var(--i), 16) * 35ms + 240ms);
+}
+
+.passage figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.83rem;
+  color: var(--muted);
+}
+
+.no-passage {
+  padding: 0.8rem 0.95rem;
+  border: 1px dashed var(--mark-line);
+  border-radius: var(--radius-m);
+  background: var(--mark-bg);
+}
+
+.others {
+  margin-top: 0.75rem;
+  font-size: 0.93rem;
+}
+
+.others .passage {
+  margin-top: 0.65rem;
+}
+
+/* Recording a finding */
+
+.verdict-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.6rem, 1fr));
+  gap: 0.55rem;
+}
+
+.choice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.72rem 0.8rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-m);
+  background: var(--surface-3);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--glass-inset);
+  transition:
+    background-color var(--dur-1) ease,
+    border-color var(--dur-1) ease,
+    color var(--dur-1) ease,
+    transform var(--dur-2) var(--ease-out);
+}
+
+.choice .icon {
+  stroke-width: 2.6;
+}
+
+.choice:hover {
+  border-color: var(--ink-2);
+  transform: translateY(-1px);
+}
+
+.choice:active {
+  transform: scale(0.97);
+}
+
+.choice-ok,
+.choice-ok:hover {
+  background: var(--ok-fill);
+  border-color: var(--ok-fill);
+  color: var(--ok-fill-ink);
+  box-shadow: var(--glow-ok);
+}
+
+.choice-bad,
+.choice-bad:hover {
+  background: var(--bad-fill);
+  border-color: var(--bad-fill);
+  color: var(--bad-fill-ink);
+  box-shadow: var(--glow-bad);
+}
+
+.choice-ok,
+.choice-bad {
+  animation: stamp var(--dur-3) var(--ease-spring);
+}
+
+.verdict-note {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* On a wide screen the panel scrolls inside itself. Recording a finding is the
+   point of the panel, so those buttons stay in view while the passage scrolls. */
+@media (min-width: 940px) {
+  .verdict {
+    position: sticky;
+    bottom: -1.5rem;
+    z-index: 1;
+    margin: 0 -1.5rem -1.5rem;
+    padding: 1rem 1.5rem 1.35rem;
+    border-top: 1px solid var(--line);
+    border-radius: 0 0 var(--radius-l) var(--radius-l);
+    background: var(--surface-raised);
+    -webkit-backdrop-filter: var(--glass-blur);
+    backdrop-filter: var(--glass-blur);
+    box-shadow: 0 -14px 20px -14px rgb(5 6 15 / 0.45);
+  }
+}

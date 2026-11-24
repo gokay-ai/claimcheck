@@ -1,0 +1,225 @@
+/* The threshold: one control, and what each setting cost in the pilot test. */
+
+.threshold {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.threshold-head label {
+  font-weight: 650;
+}
+
+.threshold-slider {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 0.8rem;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.threshold-slider > span {
+  line-height: 1.75rem;
+}
+
+/* The thumb's centre travels from half a thumb in to half a thumb short of the
+   end, so the fill and the default notch are placed on the same scale. */
+.range {
+  --thumb: 1.4rem;
+  position: relative;
+  padding-bottom: 1.05rem;
+}
+
+.range input {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 1.75rem;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Focus is shown on the thumb, where the ring cannot cover the default notch. */
+.range input:focus-visible {
+  outline: none;
+}
+
+.range input:focus-visible::-webkit-slider-thumb {
+  box-shadow:
+    0 0 0 3px var(--surface-solid),
+    0 0 0 6px var(--focus);
+}
+
+.range input:focus-visible::-moz-range-thumb {
+  box-shadow:
+    0 0 0 3px var(--surface-solid),
+    0 0 0 6px var(--focus);
+}
+
+.range input::-webkit-slider-runnable-track {
+  height: 0.5rem;
+  border-radius: var(--radius-pill);
+  /* The filled part is a layer as wide as the thumb's position. */
+  background:
+    var(--brand-gradient) 0 0 / calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--fill)) 100%
+      no-repeat,
+    var(--surface-3);
+}
+
+.range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--thumb);
+  height: var(--thumb);
+  margin-top: -0.45rem;
+  border-radius: 50%;
+  background: var(--surface-solid);
+  border: 2px solid var(--brand);
+  box-shadow: var(--shadow-1), var(--glow-brand);
+  transition:
+    transform var(--dur-1) ease,
+    box-shadow var(--dur-1) ease;
+}
+
+.range input:hover::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+
+.range input:active::-webkit-slider-thumb {
+  transform: scale(1.2);
+  box-shadow: var(--ring), var(--shadow-1);
+}
+
+.range input::-moz-range-track {
+  height: 0.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+}
+
+.range input::-moz-range-progress {
+  height: 0.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--brand-gradient);
+}
+
+.range input::-moz-range-thumb {
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  background: var(--surface-solid);
+  border: 2px solid var(--brand);
+  box-shadow: var(--shadow-1), var(--glow-brand);
+}
+
+/* Where "Reset to default" returns to. */
+.range-default {
+  position: absolute;
+  top: 1.4rem;
+  left: calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--default));
+  transform: translateX(-50%);
+  display: grid;
+  justify-items: center;
+  gap: 0.1rem;
+  font-size: 0.7rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.range-default::before {
+  content: "";
+  width: 2px;
+  height: 0.35rem;
+  border-radius: 1px;
+  background: var(--line-strong);
+}
+
+/* Both rates move together: marking more catches more and cries wolf more. */
+.tradeoff {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: var(--surface-2);
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(0, 12.3rem) minmax(2rem, 1fr) 2.6rem;
+  gap: 0.7rem;
+  align-items: center;
+  font-size: 0.86rem;
+  color: var(--ink-2);
+}
+
+.bar-track {
+  height: 0.55rem;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+}
+
+.bar-fill {
+  display: block;
+  width: calc(var(--v) * 100%);
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width var(--dur-3) var(--ease-out);
+}
+
+.bar-hit .bar-fill {
+  background: var(--ok-fill);
+  box-shadow: var(--glow-ok);
+}
+
+.bar-alarm .bar-fill {
+  background: var(--mark-line);
+  box-shadow: var(--glow-mark);
+}
+
+.bar-value {
+  text-align: right;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.threshold-effect {
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+.threshold-effect strong {
+  color: var(--ink-2);
+}
+
+.threshold-basis {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.threshold-basis summary,
+.others summary {
+  cursor: pointer;
+  color: var(--link);
+  font-weight: 500;
+}
+
+.threshold-basis p {
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 560px) {
+  .bar-row {
+    grid-template-columns: minmax(0, 1fr) 2.6rem;
+  }
+
+  .bar-row > span:first-child {
+    grid-column: 1 / -1;
+  }
+}
