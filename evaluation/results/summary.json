@@ -1,0 +1,6537 @@
+{
+  "questions": 49,
+  "runs": 98,
+  "runs_declined": 5,
+  "labelling": {
+    "claims": 358,
+    "unlabelled": 0,
+    "unverifiable": 95,
+    "quote_not_found": 2
+  },
+  "pooled": {
+    "claims": 261,
+    "wrong_claims": 35,
+    "signals": {
+      "token_min": {
+        "auc": 0.639,
+        "auc_95_interval": [
+          0.547,
+          0.727
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.004
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.009
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.013
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.018
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.022
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.027
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.035
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.04
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.057,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.057,
+            "false_alarm_rate": 0.049
+          },
+          {
+            "hit_rate": 0.057,
+            "false_alarm_rate": 0.053
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.053
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.058
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.066
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.071
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.075
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.08
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.084
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.084
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.088
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.093
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.093
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.097
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.097
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.102
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.106
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.111
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.119
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.124
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.124
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.128
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.128
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.128
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.133
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.137
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.142
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.15
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.15
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.155
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.159
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.164
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.164
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.168
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.173
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.173
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.181
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.186
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.186
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.19
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.195
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.199
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.204
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.212
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.217
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.221
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.226
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.23
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.235
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.239
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.239
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.243
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.248
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.252
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.257
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.261
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.265
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.265
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.27
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.274
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.279
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.283
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.288
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.288
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.296
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.301
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.305
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.31
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.319
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.327
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.336
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.341
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.345
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.35
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.358
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.363
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.367
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.372
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.376
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.389
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.394
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.398
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.403
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.403
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.403
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.407
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.412
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.416
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.42
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.425
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.429
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.434
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.442
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.451
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.456
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.46
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.465
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.473
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.478
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.482
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.487
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.491
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.496
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.504
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.509
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.513
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.513
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.518
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.522
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.527
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.535
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.54
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.544
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.544
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.549
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.553
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.558
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.566
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.571
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.571
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.575
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.58
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.584
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.584
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.588
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.588
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.588
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.593
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.593
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.597
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.602
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.606
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.611
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.619
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.624
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.628
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.628
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.633
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.633
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.637
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.642
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.65
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.655
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.659
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.664
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.664
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.668
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.673
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.681
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.686
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.69
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.69
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.695
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.699
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.699
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.704
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.712
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.717
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.721
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.726
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.73
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.735
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.739
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.743
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.748
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.752
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.757
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.761
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.765
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.77
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.774
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.779
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.783
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.788
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.796
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.801
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.805
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.81
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.814
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.819
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.827
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.832
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.836
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.841
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.845
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.85
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.858
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.863
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.867
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.872
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.876
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.881
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.889
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.894
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.898
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.903
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.907
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.912
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.916
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.92
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.925
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.929
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.934
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.942
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.947
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.951
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.956
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.96
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.965
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.973
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.978
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.982
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.991
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.996
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "token_mean": {
+        "auc": 0.605,
+        "auc_95_interval": [
+          0.509,
+          0.689
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.004
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.009
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.013
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.018
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.018
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.022
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.027
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.035
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.04
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.057,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.049
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.053
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.058
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.066
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.071
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.075
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.08
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.084
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.084
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.088
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.093
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.097
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.102
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.106
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.111
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.119
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.124
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.128
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.133
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.137
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.137
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.142
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.15
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.155
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.159
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.164
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.168
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.168
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.173
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.181
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.186
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.19
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.19
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.195
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.199
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.204
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.204
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.212
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.212
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.217
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.221
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.226
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.23
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.235
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.239
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.243
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.243
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.248
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.252
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.257
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.261
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.265
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.27
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.274
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.279
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.283
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.288
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.296
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.301
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.305
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.31
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.31
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.319
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.327
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.336
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.341
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.345
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.345
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.35
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.358
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.363
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.367
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.367
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.372
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.376
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.389
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.394
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.398
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.403
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.407
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.412
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.412
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.416
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.42
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.42
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.425
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.429
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.434
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.442
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.442
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.451
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.451
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.456
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.456
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.46
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.465
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.473
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.478
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.482
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.487
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.491
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.496
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.504
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.509
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.513
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.518
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.522
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.527
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.535
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.54
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.544
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.549
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.553
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.558
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.566
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.571
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.575
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.58
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.584
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.588
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.593
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.597
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.602
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.602
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.606
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.606
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.611
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.619
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.624
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.628
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.633
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.633
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.637
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.642
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.65
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.655
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.659
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.664
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.664
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.668
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.673
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.681
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.686
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.69
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.69
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.695
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.699
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.704
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.712
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.717
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.721
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.721
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.726
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.73
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.73
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.73
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.735
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.739
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.743
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.748
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.752
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.757
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.761
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.765
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.77
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.774
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.779
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.783
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.788
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.796
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.801
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.805
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.81
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.814
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.819
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.827
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.832
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.836
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.841
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.845
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.85
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.858
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.863
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.867
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.872
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.876
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.881
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.889
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.894
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.898
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.903
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.907
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.912
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.916
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.92
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.925
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.929
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.934
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.942
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.947
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.951
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.956
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.96
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.965
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.973
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.978
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.982
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.991
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.996
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "disagreement": {
+        "auc": 0.728,
+        "auc_95_interval": [
+          0.629,
+          0.822
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.018
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.022
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.071
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.119
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.212
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.305
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "combined": {
+        "auc": 0.764,
+        "auc_95_interval": [
+          0.67,
+          0.846
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.029,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.057,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.086,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.114,
+            "false_alarm_rate": 0.004
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.004
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.009
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.013
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.018
+          },
+          {
+            "hit_rate": 0.143,
+            "false_alarm_rate": 0.022
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.022
+          },
+          {
+            "hit_rate": 0.171,
+            "false_alarm_rate": 0.027
+          },
+          {
+            "hit_rate": 0.2,
+            "false_alarm_rate": 0.027
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.027
+          },
+          {
+            "hit_rate": 0.229,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.257,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.035
+          },
+          {
+            "hit_rate": 0.286,
+            "false_alarm_rate": 0.04
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.04
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.044
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.049
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.053
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.058
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.066
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.071
+          },
+          {
+            "hit_rate": 0.314,
+            "false_alarm_rate": 0.075
+          },
+          {
+            "hit_rate": 0.343,
+            "false_alarm_rate": 0.075
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.075
+          },
+          {
+            "hit_rate": 0.371,
+            "false_alarm_rate": 0.08
+          },
+          {
+            "hit_rate": 0.4,
+            "false_alarm_rate": 0.08
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.08
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.084
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.088
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.093
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.097
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.102
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.106
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.111
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.119
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.124
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.128
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.133
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.137
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.142
+          },
+          {
+            "hit_rate": 0.429,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.457,
+            "false_alarm_rate": 0.15
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.15
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.155
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.159
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.164
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.168
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.173
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.486,
+            "false_alarm_rate": 0.181
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.181
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.186
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.19
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.195
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.199
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.204
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.212
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.217
+          },
+          {
+            "hit_rate": 0.514,
+            "false_alarm_rate": 0.221
+          },
+          {
+            "hit_rate": 0.543,
+            "false_alarm_rate": 0.221
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.221
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.226
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.23
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.235
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.239
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.243
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.248
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.252
+          },
+          {
+            "hit_rate": 0.571,
+            "false_alarm_rate": 0.257
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.257
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.261
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.265
+          },
+          {
+            "hit_rate": 0.6,
+            "false_alarm_rate": 0.27
+          },
+          {
+            "hit_rate": 0.629,
+            "false_alarm_rate": 0.27
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.27
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.274
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.279
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.283
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.288
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.296
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.301
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.305
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.31
+          },
+          {
+            "hit_rate": 0.657,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.686,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.714,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.314
+          },
+          {
+            "hit_rate": 0.743,
+            "false_alarm_rate": 0.319
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.319
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.327
+          },
+          {
+            "hit_rate": 0.771,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.332
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.336
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.341
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.345
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.35
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.358
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.363
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.367
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.372
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.376
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.381
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.389
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.394
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.398
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.403
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.407
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.412
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.416
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.42
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.425
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.429
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.434
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.442
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.447
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.451
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.456
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.46
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.465
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.473
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.478
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.482
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.487
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.491
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.496
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.8,
+            "false_alarm_rate": 0.504
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.504
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.509
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.513
+          },
+          {
+            "hit_rate": 0.829,
+            "false_alarm_rate": 0.518
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.518
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.522
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.527
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.535
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.54
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.544
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.549
+          },
+          {
+            "hit_rate": 0.857,
+            "false_alarm_rate": 0.553
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.553
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.558
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.566
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.571
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.575
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.58
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.584
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.588
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.593
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.597
+          },
+          {
+            "hit_rate": 0.886,
+            "false_alarm_rate": 0.602
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.602
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.606
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.611
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.619
+          },
+          {
+            "hit_rate": 0.914,
+            "false_alarm_rate": 0.624
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.624
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.628
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.633
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.637
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.642
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.65
+          },
+          {
+            "hit_rate": 0.943,
+            "false_alarm_rate": 0.655
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.655
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.659
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.664
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.668
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.673
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.681
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.686
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.69
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.695
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.699
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.704
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.712
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.717
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.721
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.726
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.73
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.735
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.739
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.743
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.748
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.752
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.757
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.761
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.765
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.77
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.774
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.779
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.783
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.788
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.796
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.801
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.805
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.81
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.814
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.819
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.827
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.832
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.836
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.841
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.845
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.85
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.858
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.863
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.867
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.872
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.876
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.881
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.889
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.894
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.898
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.903
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.907
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.912
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.916
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.92
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.925
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.929
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.934
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.942
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.947
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.951
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.956
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.96
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.965
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.973
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.978
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.982
+          },
+          {
+            "hit_rate": 0.971,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.987
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.991
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.996
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "readings": {
+    "claims": 134,
+    "wrong_claims": 4,
+    "signals": {
+      "token_min": {
+        "auc": 0.804,
+        "auc_95_interval": [
+          0.567,
+          0.985
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.008
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.023
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.038
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.046
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.046
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.054
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.069
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.077
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.085
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.092
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.1
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.108
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.123
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.131
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.138
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.154
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.162
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.169
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.185
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.192
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.2
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.215
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.223
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.231
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.238
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.246
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.254
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.262
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.269
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.277
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.277
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.285
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.3
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.308
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.315
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.331
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.338
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.346
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.362
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.369
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.377
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.392
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.4
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.408
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.415
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.423
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.431
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.446
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.446
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.454
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.462
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.477
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.485
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.492
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.508
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.515
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.523
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.538
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.546
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.554
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.569
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.577
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.585
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.592
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.6
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.608
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.623
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.631
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.638
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.654
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.662
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.669
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.685
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.692
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.7
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.715
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.723
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.731
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.738
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.746
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.754
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.762
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.769
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.777
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.785
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.8
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.808
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.815
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.831
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.838
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.846
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.862
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.869
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.877
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.892
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.9
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.908
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.915
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.923
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.931
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.946
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.954
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.962
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.977
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.985
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.992
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "token_mean": {
+        "auc": 0.79,
+        "auc_95_interval": [
+          0.444,
+          1.0
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.008
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.023
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.038
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.046
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.054
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.069
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.077
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.085
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.092
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.1
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.108
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.123
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.131
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.138
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.154
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.162
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.169
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.185
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.192
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.2
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.215
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.223
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.231
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.231
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.238
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.246
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.254
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.262
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.269
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.277
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.285
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.3
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.308
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.315
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.331
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.338
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.346
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.362
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.369
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.377
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.392
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.4
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.408
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.415
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.423
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.431
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.446
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.454
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.462
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.477
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.485
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.492
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.508
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.515
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.523
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.538
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.546
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.554
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.569
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.577
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.585
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.592
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.592
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.6
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.608
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.623
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.631
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.638
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.654
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.662
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.669
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.685
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.692
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.7
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.715
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.723
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.731
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.738
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.746
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.754
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.762
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.769
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.777
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.785
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.8
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.808
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.815
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.831
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.838
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.846
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.862
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.869
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.877
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.892
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.9
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.908
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.915
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.923
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.931
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.946
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.954
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.962
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.977
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.985
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.992
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "disagreement": {
+        "auc": 0.631,
+        "auc_95_interval": [
+          0.323,
+          0.951
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.077
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.138
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.238
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "combined": {
+        "auc": 0.8,
+        "auc_95_interval": [
+          0.612,
+          0.977
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.008
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.015
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.023
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.038
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.046
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.054
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.069
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.077
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.085
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.092
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.1
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.108
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.123
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.131
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.138
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.25,
+            "false_alarm_rate": 0.154
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.154
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.162
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.169
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.185
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.192
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.2
+          },
+          {
+            "hit_rate": 0.5,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.215
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.223
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.231
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.238
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.246
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.254
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.262
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.269
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.277
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.285
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.3
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.308
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.315
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.331
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.338
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.346
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.362
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.369
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.377
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.392
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.4
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.408
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.415
+          },
+          {
+            "hit_rate": 0.75,
+            "false_alarm_rate": 0.423
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.423
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.431
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.446
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.454
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.462
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.477
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.485
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.492
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.508
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.515
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.523
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.538
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.546
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.554
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.569
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.577
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.585
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.592
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.6
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.608
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.623
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.631
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.638
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.654
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.662
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.669
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.685
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.692
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.7
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.715
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.723
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.731
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.738
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.746
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.754
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.762
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.769
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.777
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.785
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.8
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.808
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.815
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.831
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.838
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.846
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.862
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.869
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.877
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.892
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.9
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.908
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.915
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.923
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.931
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.946
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.954
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.962
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.977
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.985
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 0.992
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "memory": {
+    "claims": 127,
+    "wrong_claims": 31,
+    "signals": {
+      "token_min": {
+        "auc": 0.502,
+        "auc_95_interval": [
+          0.393,
+          0.618
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.01
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.021
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.052
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.073
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.083
+          },
+          {
+            "hit_rate": 0.032,
+            "false_alarm_rate": 0.083
+          },
+          {
+            "hit_rate": 0.032,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.032,
+            "false_alarm_rate": 0.104
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.104
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.125
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.135
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.156
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.156
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.167
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.188
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.194,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.219
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.219
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.229
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.229
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.24
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.25
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.26
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.26
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.271
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.271
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.281
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.302
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.312
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.333
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.344
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.375
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.396
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.406
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.406
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.417
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.427
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.448
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.458
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.479
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.49
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.51
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.521
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.542
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.552
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.573
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.573
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.583
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.594
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.604
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.625
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.635
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.656
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.667
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.688
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.698
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.698
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.719
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.729
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.74
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.75
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.76
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.76
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.781
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.802
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.833
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.844
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.844
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.865
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.875
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.896
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.906
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.917
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.927
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.948
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.958
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.979
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.99
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 1.0
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "token_mean": {
+        "auc": 0.409,
+        "auc_95_interval": [
+          0.303,
+          0.517
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.01
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.021
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.052
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.073
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.083
+          },
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.032,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.104
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.125
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.135
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.156
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.167
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.188
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.219
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.229
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.24
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.25
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.26
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.271
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.271
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.281
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.302
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.312
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.333
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.333
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.344
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.194,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.375
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.375
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.396
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.406
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.417
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.427
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.427
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.448
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.458
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.479
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.49
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.51
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.521
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.542
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.542
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.552
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.552
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.573
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.583
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.583
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.594
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.604
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.604
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.625
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.635
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.656
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.667
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.667
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.688
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.688
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.698
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.719
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.729
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.74
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.75
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.76
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.76
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.781
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.802
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.833
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.844
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.865
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.875
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.896
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.906
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.906
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.906
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.917
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.927
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.948
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.958
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.979
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.99
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 1.0
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "disagreement": {
+        "auc": 0.753,
+        "auc_95_interval": [
+          0.643,
+          0.85
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.194,
+            "false_alarm_rate": 0.021
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.281
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      },
+      "combined": {
+        "auc": 0.723,
+        "auc_95_interval": [
+          0.608,
+          0.831
+        ],
+        "roc": [
+          {
+            "hit_rate": 0.0,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.032,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.065,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.097,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.0
+          },
+          {
+            "hit_rate": 0.129,
+            "false_alarm_rate": 0.01
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.01
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.021
+          },
+          {
+            "hit_rate": 0.161,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.194,
+            "false_alarm_rate": 0.031
+          },
+          {
+            "hit_rate": 0.194,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.226,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.258,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.042
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.052
+          },
+          {
+            "hit_rate": 0.29,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.062
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.073
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.083
+          },
+          {
+            "hit_rate": 0.323,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.355,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.387,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.419,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.094
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.104
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.115
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.125
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.135
+          },
+          {
+            "hit_rate": 0.452,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.146
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.156
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.167
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.177
+          },
+          {
+            "hit_rate": 0.484,
+            "false_alarm_rate": 0.188
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.188
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.198
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.208
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.219
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.229
+          },
+          {
+            "hit_rate": 0.516,
+            "false_alarm_rate": 0.24
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.24
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.25
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.26
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.271
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.281
+          },
+          {
+            "hit_rate": 0.548,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.292
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.302
+          },
+          {
+            "hit_rate": 0.581,
+            "false_alarm_rate": 0.312
+          },
+          {
+            "hit_rate": 0.613,
+            "false_alarm_rate": 0.312
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.312
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.323
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.333
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.344
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.354
+          },
+          {
+            "hit_rate": 0.645,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.677,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.71,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.365
+          },
+          {
+            "hit_rate": 0.742,
+            "false_alarm_rate": 0.375
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.375
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.385
+          },
+          {
+            "hit_rate": 0.774,
+            "false_alarm_rate": 0.396
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.396
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.406
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.417
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.427
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.438
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.448
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.458
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.469
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.479
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.49
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.5
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.51
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.521
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.531
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.542
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.552
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.562
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.573
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.583
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.594
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.604
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.615
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.625
+          },
+          {
+            "hit_rate": 0.806,
+            "false_alarm_rate": 0.635
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.635
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.646
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.656
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.667
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.677
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.688
+          },
+          {
+            "hit_rate": 0.839,
+            "false_alarm_rate": 0.698
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.698
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.708
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.719
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.729
+          },
+          {
+            "hit_rate": 0.871,
+            "false_alarm_rate": 0.74
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.74
+          },
+          {
+            "hit_rate": 0.903,
+            "false_alarm_rate": 0.75
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.75
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.76
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.771
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.781
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.792
+          },
+          {
+            "hit_rate": 0.935,
+            "false_alarm_rate": 0.802
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.802
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.812
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.823
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.833
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.844
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.854
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.865
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.875
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.885
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.896
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.906
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.917
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.927
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.938
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.948
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.958
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.969
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.979
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 0.99
+          },
+          {
+            "hit_rate": 0.968,
+            "false_alarm_rate": 1.0
+          },
+          {
+            "hit_rate": 1.0,
+            "false_alarm_rate": 1.0
+          }
+        ]
+      }
+    }
+  }
+}
