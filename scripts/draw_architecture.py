@@ -4,7 +4,9 @@
 The diagram is generated so that it can be corrected in one place when the
 system changes. Only the standard library is used.
 
-It is laid out for a landscape page, wider than the report it has to sit on.
+It is laid out for an upright page: the student's browser down the left and
+along the bottom, the pipeline down the middle with one step per row, and the
+language model and the stored data on the right.
 
     python3 scripts/draw_architecture.py
 """
@@ -17,7 +19,7 @@ from itertools import pairwise
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "docs" / "architecture.svg"
-WIDTH, HEIGHT = 1680, 1368
+WIDTH, HEIGHT = 1040, 1368
 
 INK = "#1b2430"
 MUTED = "#56616f"
