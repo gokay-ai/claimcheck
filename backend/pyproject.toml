@@ -53,3 +53,8 @@ python_version = "3.12"
 strict = true
 files = ["src", "tests"]
 
+[[tool.mypy.overrides]]
+# matplotlib is in the optional "plots" group, and report.py falls back when it
+# is missing. Without this, the type check fails wherever the group is not installed.
+module = ["matplotlib", "matplotlib.*"]
+ignore_missing_imports = true
