@@ -43,7 +43,7 @@ Two more calls are used by the pilot evaluation and never by the app:
 
 ## What was checked
 
-- Call 1, criterion 1: the prompt enforces an answer of 3 to 5 sentences.
+- Call 1, criterion 1: 41 of the 44 pilot answers written from the readings had 3 to 5 sentences; 3 were shorter. The length is asked for, not enforced.
 - Call 1, criterion 2: none of the 93 pilot answers contained list markers or headings.
 - Call 2, criteria 1 and 2: a reply that does not parse fails the call, and a missing or extra verdict is ignored. Both cases are covered by tests in `backend/tests/test_pipeline.py`.
 - Criterion 4 of call 1 was observed on the recorded out-of-scope example. The pilot also showed the opposite error: 5 of 49 questions that the readings do answer were declined.
