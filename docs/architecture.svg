@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1368" width="1680" height="1368" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="ClaimCheck system diagram">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b2430"/></marker><marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56616f"/></marker></defs>
+<rect width="1680" height="1368" fill="#ffffff"/>
+<path d="M12.0,106.0 Q12,92 26.0,92.0 L254.0,92.0 Q268,92 268.0,106.0 L268.0,946.0 Q268,960 282.0,960.0 L1654.0,960.0 Q1668,960 1668.0,974.0 L1668.0,1194.0 Q1668,1208 1654.0,1208.0 L26.0,1208.0 Q12,1208 12.0,1194.0 Z" fill="#fafaf7" stroke="#cfccc2" stroke-width="1.5"/>
+<text x="28" y="116" font-size="14.5" font-weight="700" fill="#56616f" letter-spacing="0.5">STUDENT&#x27;S BROWSER</text>
+<text x="28" y="135" font-size="14.5" fill="#56616f">web interface (React)</text>
+<path d="M382.0,106.0 Q382,92 396.0,92.0 L616.0,92.0 Q630,92 630.0,106.0 L630.0,918.0 Q630,932 616.0,932.0 L396.0,932.0 Q382,932 382.0,918.0 Z" fill="#fafaf7" stroke="#cfccc2" stroke-width="1.5"/>
+<text x="396" y="116" font-size="14.5" font-weight="700" fill="#56616f" letter-spacing="0.5">CLAIMCHECK API</text>
+<text x="396" y="135" font-size="14.5" fill="#56616f">FastAPI: a fixed pipeline, no agent</text>
+<path d="M764.0,414.0 Q764,400 778.0,400.0 L1014.0,400.0 Q1028,400 1028.0,414.0 L1028.0,744.0 Q1028,758 1014.0,758.0 L778.0,758.0 Q764,758 764.0,744.0 Z" fill="#fafaf7" stroke="#cfccc2" stroke-width="1.5"/>
+<text x="778" y="425" font-size="14.5" font-weight="700" fill="#56616f" letter-spacing="0.5">LANGUAGE MODEL</text>
+<text x="896.0" y="745" text-anchor="middle" font-size="14.5" fill="#56616f">OpenRouter, gpt-4o-mini</text>
+<path d="M12.0,1238.0 Q12,1224 26.0,1224.0 L1654.0,1224.0 Q1668,1224 1668.0,1238.0 L1668.0,1340.0 Q1668,1354 1654.0,1354.0 L26.0,1354.0 Q12,1354 12.0,1340.0 Z" fill="#fafaf7" stroke="#cfccc2" stroke-width="1.5"/>
+<text x="28" y="1247" font-size="14.5" font-weight="700" fill="#56616f" letter-spacing="0.5">OFFLINE WORK</text>
+<path d="M224.0,62 L224.0,150" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="214.0" y="82" text-anchor="end" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">question</text>
+<path d="M254,181.0 L396,181.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="172.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">POST /api/ask</text>
+<path d="M506.0,212 L506.0,238" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,300 L506.0,326" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,388 L506.0,414" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,476 L506.0,502" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,564 L506.0,590" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,652 L506.0,678" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,740 L506.0,766" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M506.0,828 L506.0,854" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M396,357.0 L254,357.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="348.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">no: decline</text>
+<path d="M396,885.0 L254,885.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="876.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">NDJSON stream</text>
+<path d="M616,445.0 L964.0,445.0 L964.0,502" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="628" y="436.0" text-anchor="start" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">prompt + passages</text>
+<path d="M778,533.0 L616,533.0" fill="none" stroke="#56616f" stroke-width="1.8" marker-end="url(#arrow-muted)"/>
+<path d="M778,609.0 L616,609.0" fill="none" stroke="#56616f" stroke-width="1.8" marker-end="url(#arrow-muted)"/>
+<path d="M616,639.0 L697.0,639.0 L697.0,682.0 L778,682.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="656.0" y="656.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">claims</text>
+<path d="M778,709.0 L616,709.0" fill="none" stroke="#56616f" stroke-width="1.8" marker-end="url(#arrow-muted)"/>
+<path d="M778,269.0 L616,269.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="697.0" y="260.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">passages</text>
+<path d="M778,890.0 L616,890.0" fill="none" stroke="#1b2430" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="697.0" y="881.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">replay</text>
+<path d="M141.0,916 L141.0,1012" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="151.0" y="969.0" text-anchor="start" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">scored</text>
+<path d="M254,1043.0 L396,1043.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="1034.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">select</text>
+<path d="M616,1043.0 L778,1043.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="697.0" y="1034.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">compare</text>
+<path d="M896.0,1012 L896.0,994 L204.0,994 L204.0,1012" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="550.0" y="986" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">finding shown on the claim; can be undone</text>
+<path d="M141.0,1112 L141.0,1074" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="151.0" y="1098.0" text-anchor="start" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">re-marks at once</text>
+<path d="M396,1298.0 L254,1298.0" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="325.0" y="1289.0" text-anchor="middle" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">measured</text>
+<path d="M204.0,1258 L204.0,1174" fill="none" stroke="#1b2430" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="214.0" y="1197" text-anchor="start" font-size="14.5" fill="#56616f" paint-order="stroke" stroke="#ffffff" stroke-width="4">rates for each threshold</text>
+<rect x="28" y="10" width="226" height="52" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="36.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Student</text>
+<rect x="28" y="150" width="226" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="171.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Ask form</text>
+<text x="141.0" y="191.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">example questions</text>
+<rect x="28" y="326" width="226" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="347.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Decline or error notice</text>
+<text x="141.0" y="367.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">what to ask instead</text>
+<rect x="28" y="854" width="226" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="875.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Progress</text>
+<text x="141.0" y="895.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">3 visible steps</text>
+<rect x="28" y="1012" width="226" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="1033.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Answer</text>
+<text x="141.0" y="1053.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">claims marked CHECK</text>
+<rect x="396" y="1012" width="220" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="506.0" y="1033.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Check panel</text>
+<text x="506.0" y="1053.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">reasons + closest passage</text>
+<rect x="778" y="1012" width="236" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="896.0" y="1033.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Student&#x27;s finding</text>
+<text x="896.0" y="1053.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">✓ matches · ✕ differs</text>
+<rect x="28" y="1112" width="226" height="62" rx="9" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="141.0" y="1133.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Threshold control</text>
+<text x="141.0" y="1153.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">hit and false-alarm rates</text>
+<rect x="778" y="1112" width="236" height="62" rx="9" fill="#f4f4f4" stroke="#8a8f98" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="896.0" y="1133.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#56616f">Personal threshold</text>
+<text x="896.0" y="1153.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#56616f">tuned by recorded findings</text>
+<rect x="396" y="150" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="171.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Rate limit</text>
+<text x="506.0" y="191.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">per client, per day</text>
+<rect x="396" y="238" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="259.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">1 Retrieve</text>
+<text x="506.0" y="279.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">BM25, top 4 passages</text>
+<rect x="396" y="326" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="347.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">2 Covered?</text>
+<text x="506.0" y="367.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">coverage ≥ 0.5</text>
+<rect x="396" y="414" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="435.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">3 Write answer</text>
+<text x="506.0" y="455.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">+ re-ask 4 times</text>
+<rect x="396" y="502" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="523.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">4 Split</text>
+<text x="506.0" y="543.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">sentence = claim</text>
+<rect x="396" y="590" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="611.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">5 Judge</text>
+<text x="506.0" y="631.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">claim vs each re-ask</text>
+<rect x="396" y="678" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="699.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">6 Score claims</text>
+<text x="506.0" y="719.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">check score 0 to 1</text>
+<rect x="396" y="766" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="787.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">7 Match passage</text>
+<text x="506.0" y="807.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">closest reading per claim</text>
+<rect x="396" y="854" width="220" height="62" rx="9" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="506.0" y="875.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">8 Stream</text>
+<text x="506.0" y="895.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">stages, then result</text>
+<rect x="778" y="502" width="236" height="62" rx="9" fill="#fff3d1" stroke="#8a4b08" stroke-width="2"/>
+<text x="896.0" y="523.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Answer +</text>
+<text x="896.0" y="543.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">token probabilities</text>
+<rect x="778" y="588" width="236" height="42" rx="9" fill="#fff3d1" stroke="#8a4b08" stroke-width="2"/>
+<text x="896.0" y="609.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">4 re-asked answers</text>
+<rect x="778" y="660" width="236" height="62" rx="9" fill="#fff3d1" stroke="#8a4b08" stroke-width="2"/>
+<text x="896.0" y="681.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Verdict per claim</text>
+<text x="896.0" y="701.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">JSON schema</text>
+<rect x="778" y="132" width="236" height="62" rx="9" fill="#f4f4f4" stroke="#8a8f98" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="896.0" y="153.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#56616f">Student&#x27;s own readings</text>
+<text x="896.0" y="173.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#56616f">upload and index</text>
+<rect x="778" y="229.0" width="236" height="80" rx="9" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2"/>
+<text x="896.0" y="249.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Readings</text>
+<text x="896.0" y="269.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">19 articles, 434 passages</text>
+<text x="896.0" y="289.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">source link per passage</text>
+<rect x="778" y="778" width="236" height="62" rx="9" fill="#f4f4f4" stroke="#8a8f98" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="896.0" y="799.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#56616f">Passage-support signal</text>
+<text x="896.0" y="819.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#56616f">does the passage entail it?</text>
+<rect x="778" y="864" width="236" height="80" rx="9" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2" stroke-dasharray="9 5"/>
+<text x="896.0" y="884.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Recorded answers</text>
+<text x="896.0" y="904.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">7 questions, replayed</text>
+<text x="896.0" y="924.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">when no key is set</text>
+<rect x="28" y="1258" width="226" height="80" rx="9" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2"/>
+<text x="141.0" y="1278.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Calibration</text>
+<text x="141.0" y="1298.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">threshold → hit rate,</text>
+<text x="141.0" y="1318.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">false-alarm rate</text>
+<rect x="396" y="1258" width="260" height="80" rx="9" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2"/>
+<text x="526.0" y="1278.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#1b2430">Pilot evaluation</text>
+<text x="526.0" y="1298.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">same pipeline, 49 questions</text>
+<text x="526.0" y="1318.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#1b2430">261 claims labelled by model</text>
+<rect x="778" y="1267.0" width="236" height="62" rx="9" fill="#f4f4f4" stroke="#8a8f98" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="896.0" y="1288.0" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="600" fill="#56616f">Reliance study</text>
+<text x="896.0" y="1308.0" text-anchor="middle" dominant-baseline="central" font-size="15.5" font-weight="400" fill="#56616f">with students</text>
+<text x="320" y="31" font-size="14.5" font-weight="700" fill="#1b2430">Status</text>
+<rect x="382" y="17" width="34" height="18" rx="4" fill="#ffffff" stroke="#1b2430" stroke-width="2"/>
+<text x="425" y="31" font-size="14.5" fill="#1b2430">Implemented</text>
+<rect x="382" y="41" width="34" height="18" rx="4" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2" stroke-dasharray="9 5"/>
+<text x="425" y="55" font-size="14.5" fill="#1b2430">Simulated (recorded model output)</text>
+<rect x="382" y="65" width="34" height="18" rx="4" fill="#f4f4f4" stroke="#8a8f98" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="425" y="79" font-size="14.5" fill="#1b2430">Planned</text>
+<text x="690" y="31" font-size="14.5" font-weight="700" fill="#1b2430">Kind</text>
+<rect x="736" y="17" width="34" height="18" rx="4" fill="#fff3d1" stroke="#8a4b08" stroke-width="2"/>
+<text x="779" y="31" font-size="14.5" fill="#1b2430">Language-model call (AI behaviour)</text>
+<rect x="736" y="41" width="34" height="18" rx="4" fill="#e8f0fa" stroke="#1f3a5f" stroke-width="2"/>
+<text x="779" y="55" font-size="14.5" fill="#1b2430">Seen or controlled by the student</text>
+<rect x="736" y="65" width="34" height="18" rx="4" fill="#eef3ea" stroke="#2f6b3c" stroke-width="2"/>
+<text x="779" y="79" font-size="14.5" fill="#1b2430">Stored data</text>
+</svg>
