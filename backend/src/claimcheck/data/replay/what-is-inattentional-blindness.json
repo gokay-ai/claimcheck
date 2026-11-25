@@ -1,0 +1,143 @@
+{
+  "id": "ce717e42346d",
+  "question": "What is inattentional blindness?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "Inattentional blindness is a phenomenon where an observer fails to notice a visual object or event that is fully visible because their attention is engaged on other aspects of the visual scene. The object or event must be unexpected, and the observer is usually unaware of this effect. This failure to see is not due to the characteristics of the visual stimulus itself but rather due to the engagement of attention elsewhere. Inattentional blindness is distinct from other failures of visual awareness, such as change blindness and attentional blink, primarily because the undetected stimulus is unexpected.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "Inattentional blindness is a phenomenon where an observer fails to notice a visual object or event that is fully visible because their attention is engaged on other aspects of the visual scene.",
+      "start": 0,
+      "end": 193,
+      "signals": {
+        "min_token_probability": 0.2783868059971647,
+        "mean_token_probability": 0.9270269517422526,
+        "weakest_token": "because",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.3608,
+      "support": {
+        "passage_id": "inattentional-blindness-03",
+        "overlap": 0.845
+      }
+    },
+    {
+      "id": 2,
+      "text": "The object or event must be unexpected, and the observer is usually unaware of this effect.",
+      "start": 194,
+      "end": 285,
+      "signals": {
+        "min_token_probability": 0.33023140114645266,
+        "mean_token_probability": 0.6944571717909032,
+        "weakest_token": "observer",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.3349,
+      "support": {
+        "passage_id": "inattentional-blindness-03",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "This failure to see is not due to the characteristics of the visual stimulus itself but rather due to the engagement of attention elsewhere.",
+      "start": 286,
+      "end": 426,
+      "signals": {
+        "min_token_probability": 0.37847065266774643,
+        "mean_token_probability": 0.7834793993402999,
+        "weakest_token": "characteristics",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.3108,
+      "support": {
+        "passage_id": "inattentional-blindness-03",
+        "overlap": 0.668
+      }
+    },
+    {
+      "id": 4,
+      "text": "Inattentional blindness is distinct from other failures of visual awareness, such as change blindness and attentional blink, primarily because the undetected stimulus is unexpected.",
+      "start": 427,
+      "end": 608,
+      "signals": {
+        "min_token_probability": 0.6364320680648301,
+        "mean_token_probability": 0.9299448490328772,
+        "weakest_token": "failures",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "not_mentioned",
+          "supported"
+        ],
+        "disagreement": 0.125
+      },
+      "risk": 0.2443,
+      "support": {
+        "passage_id": "inattentional-blindness-03",
+        "overlap": 0.892
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "inattentional-blindness-18",
+      "source_id": "inattentional-blindness",
+      "source_title": "Inattentional blindness",
+      "section": "Experiments",
+      "text": "To test for inattentional blindness, researchers ask participants to complete a primary task while an unexpected stimulus is presented. Afterwards, researchers ask participants if they saw anything unusual during the primary task. Arien Mack and Irvin Rock describe a series of experiments that demonstrated inattentional blindness in their 1998 book, Inattentional Blindness.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Inattentional_blindness&oldid=1379691018"
+    },
+    {
+      "id": "inattentional-blindness-54",
+      "source_id": "inattentional-blindness",
+      "source_title": "Inattentional blindness",
+      "section": "Implications",
+      "text": "Although the bulk of inattentional blindness research has been conducted in laboratory studies, the phenomenon occurs in a variety of everyday contexts. Depending upon the context, the occurrence of inattentional blindness could range from embarrassing and/or humorous to potentially devastating.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Inattentional_blindness&oldid=1379691018"
+    },
+    {
+      "id": "inattentional-blindness-03",
+      "source_id": "inattentional-blindness",
+      "source_title": "Inattentional blindness",
+      "section": "Criteria",
+      "text": "The following criteria are required to classify an event as an inattentional blindness episode: 1) the observer must fail to notice a visual object or event, 2) the object or event must be fully visible, 3) observers must be able to readily identify the object if they are consciously perceiving it, and 4) the event must be unexpected and the failure to see the object or event must be due to the engagement of attention on other aspects of the visual scene and not due to aspects of the visual stimulus itself. Individuals who experience inattentional blindness are usually unaware of this effect, which can play a role on behavior or subsequent recall. Inattentional blindness is related to but distinct from other failures of visual awareness such as change blindness, repetition blindness, visual masking, and attentional blink. The key aspect of inattentional blindness which makes it distinct from other failures in awareness rests on the fact that the undetected stimulus is unexpected. It is the unexpected nature of said stimulus that differentiates inattentional blindness from failures of awareness such as attentional failures like the aforementioned attentional blink. It is critical to acknowledge that occurrences of inattentional blindness are attributed to the failure to consciously attend to an item in the visual field as opposed the absence of cognitive processing.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Inattentional_blindness&oldid=1379691018"
+    },
+    {
+      "id": "inattentional-blindness-34",
+      "source_id": "inattentional-blindness",
+      "source_title": "Inattentional blindness",
+      "section": "Neuropsychological analogies › Extinction",
+      "text": "In the phenomenon of extinction, patients can report the presence of a single stimulus presented on the affected side, but then fail to detect it when a second stimulus is presented simultaneously on the \"good\" (ipsilateral) side. Here the stimulus on the affected side seems to lose under conditions of attentional competition from stimuli in the ipsilesional field. The consequence of this competition is that the extinguished items may not be detected. Similar to studies of inattentional blindness, there is evidence of processing taking place in the neglected field. For example, there can be semantic priming from a stimulus presented in the neglected field, which affects responses to stimuli subsequently presented on the unimpaired side. Apparently in both neglect and inattentional blindness, there is some level processing of stimuli even when they are unattended. However one major difference between neuropsychological symptoms such as neglect and extinction, and inattentional blindness concerns the role of expectation. In inattentional blindness, subjects do not expect the unreported stimulus. In contrast, in neglect and extinction, patients may expect a stimulus to be presented on the affected side but still fail to report it when another it may be that expectation affects reportability but not the implicit processing of stimuli. Further explanations of the phenomenon of inattentional blindness include inattentional amnesia, inattentional agnosia and change blindness.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Inattentional_blindness&oldid=1379691018"
+    }
+  ],
+  "context_passage_ids": [
+    "inattentional-blindness-18",
+    "inattentional-blindness-54",
+    "inattentional-blindness-03",
+    "inattentional-blindness-34"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}

@@ -1,0 +1,166 @@
+{
+  "id": "705800c90f35",
+  "question": "What is automation bias?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "Automation bias is the propensity for humans to favor suggestions from automated decision-making systems and to ignore contradictory information made without automation, even if it is correct. This bias stems from social psychology literature that shows people assign more positive evaluations to decisions made by humans than to neutral objects. In human-automation interaction, automated decisions are rated more positively than neutral. Errors of automation bias typically occur when decision-making relies on computers or automated aids while the human is in an observatory role but still able to make decisions. Examples of automation bias can be found in various contexts, including urgent matters like flying a plane on automatic pilot and mundane tasks like using spell-checking programs.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "Automation bias is the propensity for humans to favor suggestions from automated decision-making systems and to ignore contradictory information made without automation, even if it is correct.",
+      "start": 0,
+      "end": 192,
+      "signals": {
+        "min_token_probability": 0.6771528569229681,
+        "mean_token_probability": 0.9641577875739105,
+        "weakest_token": "and",
+        "sample_verdicts": [
+          "contradicted",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.25
+      },
+      "risk": 0.2864,
+      "support": {
+        "passage_id": "automation-bias-01",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "This bias stems from social psychology literature that shows people assign more positive evaluations to decisions made by humans than to neutral objects.",
+      "start": 193,
+      "end": 346,
+      "signals": {
+        "min_token_probability": 0.4493275928761373,
+        "mean_token_probability": 0.7974822954863029,
+        "weakest_token": "shows",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2753,
+      "support": {
+        "passage_id": "automation-bias-01",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 3,
+      "text": "In human-automation interaction, automated decisions are rated more positively than neutral.",
+      "start": 347,
+      "end": 439,
+      "signals": {
+        "min_token_probability": 0.5188654056017609,
+        "mean_token_probability": 0.8788948183385675,
+        "weakest_token": "rated",
+        "sample_verdicts": [
+          "not_mentioned",
+          "not_mentioned",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.25
+      },
+      "risk": 0.3656,
+      "support": {
+        "passage_id": "automation-bias-01",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Errors of automation bias typically occur when decision-making relies on computers or automated aids while the human is in an observatory role but still able to make decisions.",
+      "start": 440,
+      "end": 616,
+      "signals": {
+        "min_token_probability": 0.25189662447492844,
+        "mean_token_probability": 0.8473846016480245,
+        "weakest_token": "typically",
+        "sample_verdicts": [
+          "supported",
+          "not_mentioned",
+          "supported",
+          "contradicted"
+        ],
+        "disagreement": 0.375
+      },
+      "risk": 0.5616,
+      "support": {
+        "passage_id": "automation-bias-01",
+        "overlap": 0.774
+      }
+    },
+    {
+      "id": 5,
+      "text": "Examples of automation bias can be found in various contexts, including urgent matters like flying a plane on automatic pilot and mundane tasks like using spell-checking programs.",
+      "start": 617,
+      "end": 796,
+      "signals": {
+        "min_token_probability": 0.30621147863549775,
+        "mean_token_probability": 0.7835222522210801,
+        "weakest_token": "urgent",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "not_mentioned",
+          "supported"
+        ],
+        "disagreement": 0.125
+      },
+      "risk": 0.4094,
+      "support": {
+        "passage_id": "automation-bias-01",
+        "overlap": 0.834
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "automation-bias-14",
+      "source_id": "automation-bias",
+      "source_title": "Automation bias",
+      "section": "Automation-induced complacency",
+      "text": "The concept of automation bias is viewed as overlapping with automation-induced complacency, also known more simply as automation complacency. Like automation bias, it is a consequence of the misuse of automation and involves problems of attention. While automation bias involves a tendency to trust decision-support systems, automation complacency involves insufficient attention to and monitoring of automation output, usually because that output is viewed as reliable. \"Although the concepts of complacency and automation bias have been discussed separately as if they were independent,\" writes one expert, \"they share several commonalities, suggesting they reflect different aspects of the same kind of automation misuse.\" It has been proposed, indeed, that the concepts of complacency and automation bias be combined into a single \"integrative concept\" because these two concepts \"might represent different manifestations of overlapping automation-induced phenomena\" and because \"automation-induced complacency and automation bias represent closely linked theoretical concepts that show considerable overlap with respect to the underlying processes.\"",
+      "url": "https://en.wikipedia.org/w/index.php?title=Automation_bias&oldid=1380886465"
+    },
+    {
+      "id": "automation-bias-13",
+      "source_id": "automation-bias",
+      "source_title": "Automation bias",
+      "section": "Factors › Definitional problems",
+      "text": "Although automation bias has been the subject of many studies, there continue to be complaints that automation bias remains ill-defined and that reporting of incidents involving automation bias is unsystematic. A review of various automation bias studies categorized the different types of tasks where automated aids were used as well as what function the automated aids served. Tasks where automated aids were used were categorized as monitoring tasks, diagnosis tasks, or treatment tasks. Types of automated assistance were listed as Alerting automation, which track important changes and alert the user, Decision support automation, which may provide a diagnosis or recommendation, or Implementation automation, where the automated aid performs a specified task.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Automation_bias&oldid=1380886465"
+    },
+    {
+      "id": "automation-bias-01",
+      "source_id": "automation-bias",
+      "source_title": "Automation bias",
+      "section": "Introduction",
+      "text": "Automation bias is the propensity for humans to favor suggestions from automated decision-making systems and to ignore contradictory information made without automation, even if it is correct. Automation bias stems from the social psychology literature that found a bias in human-human interaction that showed that people assign more positive evaluations to decisions made by humans than to a neutral object. The same type of positivity bias has been found for human-automation interaction, where the automated decisions are rated more positively than neutral. This type of bias has become a growing problem for decision making as intensive care units, nuclear power plants, and aircraft cockpits have increasingly integrated computerized system monitors and decision aids to mostly factor out possible human error. Errors of automation bias tend to occur when decision-making is dependent on computers or other automated aids and the human is in an observatory role but able to make decisions. Examples of automation bias range from urgent matters like flying a plane on automatic pilot to such mundane matters as the use of spell-checking programs.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Automation_bias&oldid=1380886465"
+    },
+    {
+      "id": "automation-bias-26",
+      "source_id": "automation-bias",
+      "source_title": "Automation bias",
+      "section": "Sectors › Military",
+      "text": "Automation bias can be a crucial factor in the use of intelligent decision support systems for military command-and-control operations. One 2004 study found that automation bias effects have contributed to a number of fatal military decisions, including friendly-fire killings during the Iraq War. Researchers have sought to determine the proper level of automation for decision support systems in this field.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Automation_bias&oldid=1380886465"
+    }
+  ],
+  "context_passage_ids": [
+    "automation-bias-14",
+    "automation-bias-13",
+    "automation-bias-01",
+    "automation-bias-26"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}

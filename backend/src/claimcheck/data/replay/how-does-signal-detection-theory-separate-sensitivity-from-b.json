@@ -1,0 +1,140 @@
+{
+  "id": "0f4508b82e16",
+  "question": "How does signal detection theory separate sensitivity from bias?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "Signal detection theory separates sensitivity from bias by categorizing trials into four types based on whether stimuli are present or absent and how the observer responds. Numerical estimates of sensitivity can be obtained using statistics like the sensitivity index d' and A', while response bias can be estimated with statistics such as c and β. The measure β specifically quantifies the response bias of the observer. This approach allows for a clearer distinction between the actual ability to detect stimuli and the tendencies of the observer to respond in certain ways.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "Signal detection theory separates sensitivity from bias by categorizing trials into four types based on whether stimuli are present or absent and how the observer responds.",
+      "start": 0,
+      "end": 172,
+      "signals": {
+        "min_token_probability": 0.5616236190952687,
+        "mean_token_probability": 0.8940033899359128,
+        "weakest_token": "stimuli",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2192,
+      "support": {
+        "passage_id": "detection-theory-04",
+        "overlap": 0.868
+      }
+    },
+    {
+      "id": 2,
+      "text": "Numerical estimates of sensitivity can be obtained using statistics like the sensitivity index d' and A', while response bias can be estimated with statistics such as c and β.",
+      "start": 173,
+      "end": 348,
+      "signals": {
+        "min_token_probability": 0.5924645713912761,
+        "mean_token_probability": 0.9288266156103526,
+        "weakest_token": "such",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2038,
+      "support": {
+        "passage_id": "detection-theory-04",
+        "overlap": 0.956
+      }
+    },
+    {
+      "id": 3,
+      "text": "The measure β specifically quantifies the response bias of the observer.",
+      "start": 349,
+      "end": 421,
+      "signals": {
+        "min_token_probability": 0.37744265687641776,
+        "mean_token_probability": 0.7500014100197598,
+        "weakest_token": "response",
+        "sample_verdicts": [
+          "supported",
+          "not_mentioned",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.125
+      },
+      "risk": 0.3738,
+      "support": {
+        "passage_id": "detection-theory-04",
+        "overlap": 0.534
+      }
+    },
+    {
+      "id": 4,
+      "text": "This approach allows for a clearer distinction between the actual ability to detect stimuli and the tendencies of the observer to respond in certain ways.",
+      "start": 422,
+      "end": 576,
+      "signals": {
+        "min_token_probability": 0.16116187359532627,
+        "mean_token_probability": 0.6633321813128307,
+        "weakest_token": "of",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.4194,
+      "support": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "detection-theory-02",
+      "source_id": "detection-theory",
+      "source_title": "Detection theory",
+      "section": "Introduction",
+      "text": "Much of the early work in detection theory was done by radar researchers. By 1954, the theory was fully developed on the theoretical side as described by Peterson, Birdsall and Fox and the foundation for the psychological theory was made by Wilson P. Tanner, David M. Green, and John A. Swets, also in 1954. Detection theory was used in 1966 by John A. Swets and David M. Green for psychophysics. Green and Swets criticized the traditional methods of psychophysics for their inability to discriminate between the real sensitivity of subjects and their (potential) response biases. Detection theory has applications in many fields such as diagnostics of any kind, quality control, telecommunications, and psychology. The concept is similar to the signal-to-noise ratio used in the sciences and confusion matrices used in artificial intelligence. It is also usable in alarm management, where it is important to separate important events from background noise.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Detection_theory&oldid=1347392463"
+    },
+    {
+      "id": "detection-theory-04",
+      "source_id": "detection-theory",
+      "source_title": "Detection theory",
+      "section": "Psychology",
+      "text": "To apply signal detection theory to a data set where stimuli were either present or absent, and the observer categorized each trial as having the stimulus present or absent, the trials are sorted into one of four categories: Based on the proportions of these types of trials, numerical estimates of sensitivity can be obtained with statistics like the sensitivity index d' and A', and response bias can be estimated with statistics like c and β. β is the measure of response bias. Signal detection theory can also be applied to memory experiments, where items are presented on a study list for later testing. A test list is created by combining these 'old' items with novel, 'new' items that did not appear on the study list. On each test trial the subject will respond 'yes, this was on the study list' or 'no, this was not on the study list'. Items presented on the study list are called Targets, and new items are called Distractors. Saying 'Yes' to a target constitutes a Hit, while saying 'Yes' to a distractor constitutes a False Alarm.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Detection_theory&oldid=1347392463"
+    },
+    {
+      "id": "detection-theory-01",
+      "source_id": "detection-theory",
+      "source_title": "Detection theory",
+      "section": "Introduction",
+      "text": "Detection theory or signal detection theory is a means to measure the ability to differentiate between information-bearing patterns (called stimulus in living organisms, signal in machines) and random patterns that distract from the information (called noise, consisting of background stimuli and random activity of the detection machine and of the nervous system of the operator). In the field of electronics, signal recovery is the separation of such patterns from a disguising background. According to the theory, there are a number of determiners of how a detecting system will detect a signal, and where its threshold levels will be. The theory can explain how changing the threshold will affect the ability to discern, often exposing how adapted the system is to the task, purpose or goal at which it is aimed. When the detecting system is a human being, characteristics such as experience, expectations, physiological state (e.g. fatigue) and other factors can affect the threshold applied. For instance, a sentry in wartime might be likely to detect fainter stimuli than the same sentry in peacetime due to a lower criterion, however they might also be more likely to treat innocuous stimuli as a threat.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Detection_theory&oldid=1347392463"
+    },
+    {
+      "id": "detection-theory-05",
+      "source_id": "detection-theory",
+      "source_title": "Detection theory",
+      "section": "Applications › Sensitivity or discriminability",
+      "text": "Conceptually, sensitivity refers to how hard or easy it is to detect that a target stimulus is present from background events. For example, in a recognition memory paradigm, having longer to study to-be-remembered words makes it easier to recognize previously seen or heard words. In contrast, having to remember 30 words rather than 5 makes the discrimination harder. One of the most commonly used statistics for computing sensitivity is the so-called sensitivity index or d'. There are also non-parametric measures, such as the area under the ROC-curve.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Detection_theory&oldid=1347392463"
+    }
+  ],
+  "context_passage_ids": [
+    "detection-theory-02",
+    "detection-theory-04",
+    "detection-theory-01",
+    "detection-theory-05"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}

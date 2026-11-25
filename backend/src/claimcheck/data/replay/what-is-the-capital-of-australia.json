@@ -1,0 +1,12 @@
+{
+  "id": "764e27142da0",
+  "question": "What is the capital of Australia?",
+  "mode": "live",
+  "status": "not_covered",
+  "answer": "",
+  "claims": [],
+  "passages": [],
+  "context_passage_ids": [],
+  "model": "openai/gpt-4o-mini",
+  "samples": 0
+}

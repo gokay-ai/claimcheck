@@ -1,0 +1,120 @@
+{
+  "id": "417ac6ba0139",
+  "question": "What is Fitts's law used to predict?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "Fitts's law is used to predict the time required to rapidly move to a target area. This prediction is based on the ratio between the distance to the target and the width of the target. It applies to the act of pointing, whether physically or virtually, using various limbs and input devices.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "Fitts's law is used to predict the time required to rapidly move to a target area.",
+      "start": 0,
+      "end": 82,
+      "signals": {
+        "min_token_probability": 0.9933048312998409,
+        "mean_token_probability": 0.9992816115852877,
+        "weakest_token": "is",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.0033,
+      "support": {
+        "passage_id": "fittss-law-01",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "This prediction is based on the ratio between the distance to the target and the width of the target.",
+      "start": 83,
+      "end": 184,
+      "signals": {
+        "min_token_probability": 0.7764425039089586,
+        "mean_token_probability": 0.9848395042015756,
+        "weakest_token": "based",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.1118,
+      "support": {
+        "passage_id": "fittss-law-01",
+        "overlap": 0.672
+      }
+    },
+    {
+      "id": 3,
+      "text": "It applies to the act of pointing, whether physically or virtually, using various limbs and input devices.",
+      "start": 185,
+      "end": 291,
+      "signals": {
+        "min_token_probability": 0.4534385764018209,
+        "mean_token_probability": 0.8163454279340067,
+        "weakest_token": "applies",
+        "sample_verdicts": [
+          "not_mentioned",
+          "supported",
+          "not_mentioned",
+          "not_mentioned"
+        ],
+        "disagreement": 0.375
+      },
+      "risk": 0.4608,
+      "support": {
+        "passage_id": "fittss-law-01",
+        "overlap": 0.769
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "fittss-law-01",
+      "source_id": "fittss-law",
+      "source_title": "Fitts's law",
+      "section": "Introduction",
+      "text": "Fitts's law (also known as Fitts' law) is a predictive model of human movement primarily used in human–computer interaction and ergonomics. The law predicts that the time required to rapidly move to a target area is a function of the ratio between the distance to the target and the width of the target. Fitts's law is used to model the act of pointing, either by physically touching an object with a hand or finger, or virtually, by pointing to an object on a computer monitor using a pointing device. It was initially developed by Paul Fitts. Fitts's law has been shown to apply under a variety of conditions; with many different limbs (hands, feet, the lower lip, head-mounted sights), manipulanda (input devices), physical environments (including underwater), and user populations (young, old, special educational needs, and drugged participants).",
+      "url": "https://en.wikipedia.org/w/index.php?title=Fitts%27s_law&oldid=1365040718"
+    },
+    {
+      "id": "fittss-law-15",
+      "source_id": "fittss-law",
+      "source_title": "Fitts's law",
+      "section": "Temporal targets",
+      "text": "The task of selecting the temporal target is called temporal pointing. The model for temporal pointing was first presented to the human–computer interaction field in 2016. The model predicts the error rate, the human performance in temporal pointing, as a function of temporal index of difficulty (IDt):",
+      "url": "https://en.wikipedia.org/w/index.php?title=Fitts%27s_law&oldid=1365040718"
+    },
+    {
+      "id": "fittss-law-06",
+      "source_id": "fittss-law",
+      "source_title": "Fitts's law",
+      "section": "Bits per second: model innovations driven by information theory",
+      "text": "The formulation of Fitts's index of difficulty most frequently used in the human–computer interaction community is called the Shannon formulation: This form was proposed by Scott MacKenzie, professor at York University, and named for its resemblance to the Shannon–Hartley theorem. It describes the transmission of information using bandwidth, signal strength and noise. In Fitts's law, the distance represents signal strength, while target width is noise.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Fitts%27s_law&oldid=1365040718"
+    },
+    {
+      "id": "fittss-law-07",
+      "source_id": "fittss-law",
+      "source_title": "Fitts's law",
+      "section": "Bits per second: model innovations driven by information theory",
+      "text": "Using this form of the model, the difficulty of a pointing task was equated to a quantity of information transmitted (in units of bits) by performing the task. This was justified by the assertion that pointing reduces to an information processing task. Although no formal mathematical connection was established between Fitts's law and the Shannon-Hartley theorem it was inspired by, the Shannon form of the law has been used extensively, likely due to the appeal of quantifying motor actions using information theory. In 2002 the ISO 9241 was published, providing standards for human–computer interface testing, including the use of the Shannon form of Fitts's law. It has been shown that the information transmitted via serial keystrokes on a keyboard and the information implied by the ID for such a task are not consistent. The Shannon-Entropy results in a different information value than Fitts's law. The authors note, though, that the error is negligible and only has to be accounted for in comparisons of devices with known entropy or measurements of human information processing capabilities.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Fitts%27s_law&oldid=1365040718"
+    }
+  ],
+  "context_passage_ids": [
+    "fittss-law-01",
+    "fittss-law-15",
+    "fittss-law-06",
+    "fittss-law-07"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}

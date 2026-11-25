@@ -1,0 +1,120 @@
+{
+  "id": "f752545f3a27",
+  "question": "How many items can short-term memory hold?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "Short-term memory is estimated to hold between 3 to 5 items. This capacity has superseded the previously commonly cited limit of 7 items. Short-term memory is distinct from working memory, which involves structures and processes for temporarily storing and manipulating information.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "Short-term memory is estimated to hold between 3 to 5 items.",
+      "start": 0,
+      "end": 60,
+      "signals": {
+        "min_token_probability": 0.40631864004998464,
+        "mean_token_probability": 0.8578542143907256,
+        "weakest_token": "is",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2968,
+      "support": {
+        "passage_id": "short-term-memory-01",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 2,
+      "text": "This capacity has superseded the previously commonly cited limit of 7 items.",
+      "start": 61,
+      "end": 137,
+      "signals": {
+        "min_token_probability": 0.4220027798331198,
+        "mean_token_probability": 0.7957948123954399,
+        "weakest_token": "limit",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.289,
+      "support": {
+        "passage_id": "short-term-memory-01",
+        "overlap": 0.779
+      }
+    },
+    {
+      "id": 3,
+      "text": "Short-term memory is distinct from working memory, which involves structures and processes for temporarily storing and manipulating information.",
+      "start": 138,
+      "end": 282,
+      "signals": {
+        "min_token_probability": 0.22948707495738682,
+        "mean_token_probability": 0.8342678465821333,
+        "weakest_token": "structures",
+        "sample_verdicts": [
+          "not_mentioned",
+          "not_mentioned",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.25
+      },
+      "risk": 0.5103,
+      "support": {
+        "passage_id": "short-term-memory-01",
+        "overlap": 0.774
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "short-term-memory-01",
+      "source_id": "short-term-memory",
+      "source_title": "Short-term memory",
+      "section": "Introduction",
+      "text": "Short-term memory (or \"primary\" or \"active memory\") is the capacity for holding a small amount of information in an active, readily available state for a short interval. For example, short-term memory holds a phone number that has just been recited. The duration of short-term memory (absent rehearsal or active maintenance) is estimated to be on the order of seconds. The commonly cited capacity of 7 items, found in Miller's law, has been superseded by 3-5 items. In contrast, long-term memory holds information indefinitely. Short-term memory is not the same as working memory, which refers to structures and processes used for temporarily storing and manipulating information.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Short-term_memory&oldid=1387464110"
+    },
+    {
+      "id": "short-term-memory-14",
+      "source_id": "short-term-memory",
+      "source_title": "Short-term memory",
+      "section": "Capacity",
+      "text": "In the visual domain, several studies report no fixed capacity limit in terms of total number of items that can be retained. Instead, some investigators have argued for a limited resource that can be flexibly shared between items held in short-term memory, with some items (in the focus of attention) being allocated more resource and being recalled with greater fidelity. Many of these experiments have used delayed response tasks that have a continuous, analogue response space, rather than using a binary (correct/incorrect) recall method as is often used in change detection tasks. Instead of asking people to report whether a change occurred between the memory and probe array, delayed reproduction tasks require participants to reproduce the precise quality of a visual feature, e.g. an object's orientation or colour.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Short-term_memory&oldid=1387464110"
+    },
+    {
+      "id": "short-term-memory-06",
+      "source_id": "short-term-memory",
+      "source_title": "Short-term memory",
+      "section": "Stores › Models › Unitary model",
+      "text": "Further evidence for a unified store comes from experiments involving continual distractor tasks. In 1974, Bjork and Whitten presented subjects with word pairs to remember; before and after each word pair, subjects performed a simple multiplication task for 12 seconds. After the final word-pair, subjects performed the multiplication distractor task for 20 seconds. They reported that the recency effect (the increased probability of recall of the last items studied) and the primacy effect (the increased probability of recall of the first few items) was sustained. These results are incompatible with a separate short-term memory as the distractor items should have displaced some of the word-pairs in the buffer, thereby weakening the associated strength of the items in long-term memory. Tzeng (1973) reported an instance where the recency effect in free recall did not seem to result from a short-term memory store. Subjects were presented with four study-test periods of 10 word lists, with a continual distractor task (20-second period of counting-backward). At the end of each list, participants had to free-recall as many words as possible. After recall of the fourth list, participants were asked to recall items from all four lists. Both the initial and final recall showed a recency effect. These results violated the predictions of a short-term memory model, where no recency effect would be expected.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Short-term_memory&oldid=1387464110"
+    },
+    {
+      "id": "atkinson-shiffrin-memory-model-20",
+      "source_id": "atkinson-shiffrin-memory-model",
+      "source_title": "Atkinson–Shiffrin memory model",
+      "section": "Search of associative memory (SAM) › Long-term store",
+      "text": "The long-term store is responsible for storing relationships between different items and of items to their contexts. Context information refers to the situational and temporal factors present at the time when an item is in the short-term store, such as emotional feelings or environmental details. The amount of item-context information which is transferred to the long-term store is proportional to the amount of time that the item remains in the short-term store. On the other hand, the strength of the item-item associations is proportional to the amount of time that two items simultaneously existed in the short-term store.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Atkinson%E2%80%93Shiffrin_memory_model&oldid=1378971874"
+    }
+  ],
+  "context_passage_ids": [
+    "short-term-memory-01",
+    "short-term-memory-14",
+    "short-term-memory-06",
+    "atkinson-shiffrin-memory-model-20"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}

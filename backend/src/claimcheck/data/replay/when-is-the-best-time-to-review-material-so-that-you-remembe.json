@@ -1,0 +1,143 @@
+{
+  "id": "6d6032e13636",
+  "question": "When is the best time to review material so that you remember it?",
+  "mode": "live",
+  "status": "answered",
+  "answer": "The optimum time to actively recall content and reset the forgetting curve is within the first 24 hours after learning the information. Evidence suggests that waiting 10 to 20 percent of the time towards when the information will be needed is the best time for a single review. Spending time each day to remember information will greatly decrease the effects of the forgetting curve. Higher original learning produces a slower forgetting rate, which can also aid in memory retention.",
+  "claims": [
+    {
+      "id": 1,
+      "text": "The optimum time to actively recall content and reset the forgetting curve is within the first 24 hours after learning the information.",
+      "start": 0,
+      "end": 135,
+      "signals": {
+        "min_token_probability": 0.6169381827087936,
+        "mean_token_probability": 0.9414214393113424,
+        "weakest_token": "optimum",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.1915,
+      "support": {
+        "passage_id": "forgetting-curve-05",
+        "overlap": 0.944
+      }
+    },
+    {
+      "id": 2,
+      "text": "Evidence suggests that waiting 10 to 20 percent of the time towards when the information will be needed is the best time for a single review.",
+      "start": 136,
+      "end": 277,
+      "signals": {
+        "min_token_probability": 0.5529048514102443,
+        "mean_token_probability": 0.9444782218700487,
+        "weakest_token": "towards",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2235,
+      "support": {
+        "passage_id": "forgetting-curve-05",
+        "overlap": 0.785
+      }
+    },
+    {
+      "id": 3,
+      "text": "Spending time each day to remember information will greatly decrease the effects of the forgetting curve.",
+      "start": 278,
+      "end": 383,
+      "signals": {
+        "min_token_probability": 0.44373207548774696,
+        "mean_token_probability": 0.9252943916212307,
+        "weakest_token": "will",
+        "sample_verdicts": [
+          "supported",
+          "supported",
+          "supported",
+          "supported"
+        ],
+        "disagreement": 0.0
+      },
+      "risk": 0.2781,
+      "support": {
+        "passage_id": "forgetting-curve-05",
+        "overlap": 1.0
+      }
+    },
+    {
+      "id": 4,
+      "text": "Higher original learning produces a slower forgetting rate, which can also aid in memory retention.",
+      "start": 384,
+      "end": 483,
+      "signals": {
+        "min_token_probability": 0.1480524501749012,
+        "mean_token_probability": 0.6779647237987861,
+        "weakest_token": "aid",
+        "sample_verdicts": [
+          "not_mentioned",
+          "supported",
+          "not_mentioned",
+          "supported"
+        ],
+        "disagreement": 0.25
+      },
+      "risk": 0.551,
+      "support": {
+        "passage_id": "forgetting-curve-05",
+        "overlap": 0.594
+      }
+    }
+  ],
+  "passages": [
+    {
+      "id": "forgetting-curve-05",
+      "source_id": "forgetting-curve",
+      "source_title": "Forgetting curve",
+      "section": "Increasing rate of learning",
+      "text": "Later research also suggested that, other than the two factors Ebbinghaus proposed, higher original learning would also produce slower forgetting. The more information was originally learned, the slower the forgetting rate would be. Spending time each day to remember information will greatly decrease the effects of the forgetting curve. Some learning consultants claim reviewing material in the first 24 hours after learning information is the optimum time to actively recall the content and reset the forgetting curve. Evidence suggests waiting 10–20% of the time towards when the information will be needed is the optimum time for a single review. Some memories remain free from the detrimental effects of interference and do not necessarily follow the typical forgetting curve as various noise and outside factors influence what information would be remembered. There is debate among supporters of the hypothesis about the shape of the curve for events and facts that are more significant to the subject. Some supporters, for example, suggest that memories of shocking events such as the Kennedy Assassination or 9/11 are vividly imprinted in memory (flashbulb memory). Others have compared contemporaneous written recollections with recollections recorded years later, and found considerable variations as the subject's memory incorporates after-acquired information. There is considerable research in this area as it relates to eyewitness identification testimony, and eyewitness accounts are found demonstrably unreliable.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Forgetting_curve&oldid=1384519708"
+    },
+    {
+      "id": "chunking-psychology-11",
+      "source_id": "chunking-psychology",
+      "source_title": "Chunking (psychology)",
+      "section": "Expertise and skilled memory effects",
+      "text": "A later description of the research in The Brain-Targeted Teaching Model for 21st Century Schools states that SF later expanded his strategy by incorporating ages and years, but his chunks were always familiar, which allowed him to recall them more easily. Someone who does not have knowledge in the expert domain (e.g. being familiar with mile/marathon times) would have difficulty chunking with race times and ultimately be unable to memorize as many numbers using this method. The idea that a person who does not have knowledge in the expert domain would have difficulty chunking could also be seen in an experiment of novice and expert hikers to see if they could remember different mountain scenes. From this study, it was found that the expert hikers had better recall and recognition of structured stimuli. Another example could be seen with expert musicians in being able to chunk and recall encoded material that best meets the demands they are presented with at any given moment during the performance.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Chunking_%28psychology%29&oldid=1372257119"
+    },
+    {
+      "id": "working-memory-23",
+      "source_id": "working-memory",
+      "source_title": "Working memory",
+      "section": "Capacity › Experimental studies of working-memory capacity › Limitations",
+      "text": "None of these hypotheses can explain the experimental data entirely. The resource hypothesis, for example, was meant to explain the trade-off between maintenance and processing: The more information must be maintained in working memory, the slower and more error prone concurrent processes become, and with a higher demand on concurrent processing memory suffers. This trade-off has been investigated by tasks like the reading-span task described above. It has been found that the amount of trade-off depends on the similarity of the information to be remembered and the information to be processed. For example, remembering numbers while processing spatial information, or remembering spatial information while processing numbers, impair each other much less than when material of the same kind must be remembered and processed. Also, remembering words and processing digits, or remembering digits and processing words, is easier than remembering and processing materials of the same category.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Working_memory&oldid=1380417315"
+    },
+    {
+      "id": "forgetting-curve-01",
+      "source_id": "forgetting-curve",
+      "source_title": "Forgetting curve",
+      "section": "Introduction",
+      "text": "The Ebbinghaus forgetting curve measures the decline of memory retention across time, showing how information is lost when there is no attempt to retain it. A related concept is the strength of memory that refers to the durability that memory traces in the brain. The stronger the memory, the longer period of time that a person is able to recall it. A typical graph of the forgetting curve purports to show that humans tend to halve their memory of newly learned knowledge in a matter of days or weeks unless they consciously review the learned material. The forgetting curve supports one of the seven kinds of memory failure discussed in The Seven Sins of Memory: transience, which is the process of forgetting what occurs with the passage of time.",
+      "url": "https://en.wikipedia.org/w/index.php?title=Forgetting_curve&oldid=1384519708"
+    }
+  ],
+  "context_passage_ids": [
+    "forgetting-curve-05",
+    "chunking-psychology-11",
+    "working-memory-23",
+    "forgetting-curve-01"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "samples": 4
+}
