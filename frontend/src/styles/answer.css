@@ -225,7 +225,22 @@
   box-shadow: var(--glow-mark);
 }
 
+/* A claim that is marked when it first appears is swept in, not shown already filled. */
+@starting-style {
+  .claim-marked {
+    background-size: 0% 100%;
+  }
+}
 
+/* While the answer is arriving, each claim's sweep waits for its own entrance.
+   After that a mark must respond to the threshold at once. */
+.claims:not(.claims-entered) .claim {
+  transition-delay: calc(var(--i) * var(--stagger) + 300ms);
+}
+
+.claims:not(.claims-entered) .tag {
+  animation-delay: calc(var(--i) * var(--stagger) + 420ms);
+}
 
 .claim-selected {
   border-color: var(--brand);
