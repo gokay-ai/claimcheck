@@ -152,7 +152,8 @@ def scored(signals: ClaimSignals, signal: str = DEFAULT_SIGNAL) -> bool:
 def risk(signals: ClaimSignals, signal: str = DEFAULT_SIGNAL) -> float:
     """Risk score for a claim.
 
-    A claim with no evidence scores 0, so it is left unmarked.
+    A claim with no evidence scores 1, so it is marked: scoring it 0 would
+    show a claim nobody examined as one that passed.
     """
     value = SIGNALS[signal](signals)
-    return 0.0 if value is None else round(min(max(value, 0.0), 1.0), 4)
+    return 1.0 if value is None else round(min(max(value, 0.0), 1.0), 4)

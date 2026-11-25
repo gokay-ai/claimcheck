@@ -174,6 +174,10 @@ class Pipeline:
                     risk=risk(signals, DEFAULT_SIGNAL),
                 )
             )
+        if claims and not any(scored(claim.signals) for claim in claims):
+            # Some models list log-probabilities but return none that match the
+            # answer. With no verdicts either, nothing here was examined.
+            raise ModelUnavailable("Neither signal could be computed for the answer.")
         return claims
 
     async def _judge(self, spans: list[Span], samples: list[str]) -> list[list[Verdict]]:
