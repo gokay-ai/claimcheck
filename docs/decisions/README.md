@@ -10,3 +10,4 @@ Short records of the choices that shaped the system: what was decided, why, and 
 | [4](0004-hold-the-answer-until-scored.md) | Show the answer only once its marks are ready |
 | [5](0005-combined-signal-and-default-threshold.md) | Mark on a combined score, with a default set by cost |
 | [6](0006-recorded-demo.md) | Ship a recorded demo that needs no key |
+| [7](0007-motion-carries-meaning.md) | Use motion only where it carries meaning |

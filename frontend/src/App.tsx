@@ -4,12 +4,14 @@ import { ask, fetchMeta } from "./api/client";
 import type { AskError, AskResult, Meta, Stage } from "./api/types";
 import { AnswerCard } from "./components/AnswerCard";
 import { AskForm } from "./components/AskForm";
+import { Backdrop } from "./components/Backdrop";
 import { CheckPanel } from "./components/CheckPanel";
 import { BookIcon, Logo } from "./components/icons";
 import { ErrorNotice, NotCovered } from "./components/Notices";
 import { Progress } from "./components/Progress";
 import { Readings } from "./components/Readings";
 import { isMarked } from "./lib/marking";
+import { applyTheme, currentTheme, type Theme } from "./lib/theme";
 
 export type Check = "matches" | "differs";
 
@@ -35,6 +37,7 @@ export function App() {
   const [checks, setChecks] = useState<Record<number, Check>>({});
   const [showReadings, setShowReadings] = useState(false);
   const [announcement, setAnnouncement] = useState("");
+  const [theme, setTheme] = useState<Theme>(currentTheme);
   const request = useRef<AbortController | null>(null);
   const resultHeading = useRef<HTMLHeadingElement>(null);
 
@@ -112,6 +115,11 @@ export function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [outcome]);
 
+  const switchTheme = () => {
+    const next: Theme = theme === "dark" ? "light" : "dark";
+    applyTheme(next);
+    setTheme(next);
+  };
 
   const setCheck = (claimId: number, check: Check | null) => {
     setChecks((current) => {
@@ -125,6 +133,7 @@ export function App() {
   if (metaFailed) {
     return (
       <div className="page">
+        <Backdrop />
         <Header mode={null} onReadings={null} />
         <main className="column">
           <ErrorNotice
@@ -143,6 +152,7 @@ export function App() {
 
   return (
     <div className="page">
+      <Backdrop />
       <Header mode={meta} onReadings={meta ? () => setShowReadings(true) : null} />
       <main className="column">
         <AskForm
@@ -217,6 +227,9 @@ export function App() {
             Readings are Wikipedia articles, used under{" "}
             <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
           </p>
+          <button type="button" className="link-button" onClick={switchTheme}>
+            Switch to the {theme === "dark" ? "light" : "dark"} theme
+          </button>
         </div>
       </footer>
 
