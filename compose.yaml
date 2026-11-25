@@ -1,0 +1,17 @@
+# Runs ClaimCheck as one container on http://localhost:8080.
+# With no key it serves the recorded demo; with a key it answers live.
+services:
+  claimcheck:
+    build: .
+    image: claimcheck:local
+    ports:
+      - "${CLAIMCHECK_PORT:-8080}:8000"
+    environment:
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      CLAIMCHECK_MODE: ${CLAIMCHECK_MODE:-auto}
+      CLAIMCHECK_MODEL: ${CLAIMCHECK_MODEL:-openai/gpt-4o-mini}
+      CLAIMCHECK_JUDGE_MODEL: ${CLAIMCHECK_JUDGE_MODEL:-openai/gpt-4o-mini}
+      # Set to true only behind a reverse proxy that sets X-Forwarded-For.
+      CLAIMCHECK_TRUST_PROXY_HEADERS: ${CLAIMCHECK_TRUST_PROXY_HEADERS:-false}
+      CLAIMCHECK_DAILY_REQUEST_CAP: ${CLAIMCHECK_DAILY_REQUEST_CAP:-400}
+    restart: unless-stopped
