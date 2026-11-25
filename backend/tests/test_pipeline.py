@@ -109,3 +109,11 @@ async def test_a_failed_judge_leaves_the_answer_without_a_second_opinion(
     assert all(claim.signals.disagreement is None for claim in result.claims)
 
 
+async def test_an_answer_with_no_signal_is_an_error_not_an_unmarked_answer(
+    settings: Settings, corpus: Corpus
+) -> None:
+    # Seen with a model whose log-probabilities did not match its answer and
+    # whose verdicts could not be used: every claim came back unmarked.
+    client = FakeClient(ANSWER, samples=[], tokens=[TokenProbability("zzz", 0.9)])
+    with pytest.raises(ModelUnavailable):
+        await run(Pipeline(settings, corpus, client), QUESTION)

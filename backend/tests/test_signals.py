@@ -71,5 +71,5 @@ def test_risk_combines_both_signals_and_stays_in_range() -> None:
     assert risk(signals, "token_min") == pytest.approx(0.9)
     assert risk(signals, "disagreement") == pytest.approx(0.5)
     assert risk(signals, "combined") == pytest.approx(0.7)
-    assert risk(ClaimSignals()) == 0.0  # no evidence, so it is left unmarked
+    assert risk(ClaimSignals()) == 1.0  # nobody examined it, so it must not look clean
     assert set(SIGNALS) == {"token_min", "token_mean", "disagreement", "combined"}
